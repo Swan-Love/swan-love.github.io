@@ -19,7 +19,7 @@
 			"file": "_pages/index/main.erb",
 			"settings":
 			{
-				"buffer_size": 4032,
+				"buffer_size": 4223,
 				"line_ending": "CR"
 			}
 		},
@@ -27,7 +27,7 @@
 			"file": "_layouts/home-layout.erb",
 			"settings":
 			{
-				"buffer_size": 2988,
+				"buffer_size": 4247,
 				"line_ending": "Windows"
 			}
 		}
@@ -56,6 +56,7 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Cookie/Documents/GitHub/swan-love.github.io/index.html",
 		"/C/Users/Cookie/Documents/GitHub/swan-love.github.io/_layouts/home-layout.erb",
 		"/C/Users/Cookie/Documents/GitHub/swan-love.github.io/_layouts/layout.erb",
 		"/C/Users/Cookie/Documents/GitHub/swan-love.github.io/_config.yml"
@@ -129,15 +130,15 @@
 					"file": "_pages/index/main.erb",
 					"settings":
 					{
-						"buffer_size": 4032,
+						"buffer_size": 4223,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3002,
-								2962
+								3602,
+								3602
 							]
 						],
 						"settings":
@@ -147,7 +148,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1056.0,
+						"translation.y": 418.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -157,15 +158,15 @@
 					"file": "_layouts/home-layout.erb",
 					"settings":
 					{
-						"buffer_size": 2988,
+						"buffer_size": 4247,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2969,
-								2969
+								1342,
+								1143
 							]
 						],
 						"settings":
@@ -175,7 +176,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1518.0,
+						"translation.y": 1782.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
