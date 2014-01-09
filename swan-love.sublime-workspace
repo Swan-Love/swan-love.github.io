@@ -7,6 +7,30 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "_pages/index/carousel.erb",
+			"settings":
+			{
+				"buffer_size": 602,
+				"line_ending": "CR"
+			}
+		},
+		{
+			"file": "_pages/index/main.erb",
+			"settings":
+			{
+				"buffer_size": 4032,
+				"line_ending": "CR"
+			}
+		},
+		{
+			"file": "_layouts/home-layout.erb",
+			"settings":
+			{
+				"buffer_size": 2988,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -32,6 +56,9 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Cookie/Documents/GitHub/swan-love.github.io/_layouts/home-layout.erb",
+		"/C/Users/Cookie/Documents/GitHub/swan-love.github.io/_layouts/layout.erb",
+		"/C/Users/Cookie/Documents/GitHub/swan-love.github.io/_config.yml"
 	],
 	"find":
 	{
@@ -66,8 +93,93 @@
 	"groups":
 	[
 		{
+			"selected": 2,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "_pages/index/carousel.erb",
+					"settings":
+					{
+						"buffer_size": 602,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								276,
+								276
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "_pages/index/main.erb",
+					"settings":
+					{
+						"buffer_size": 4032,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3002,
+								2962
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1056.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "_layouts/home-layout.erb",
+					"settings":
+					{
+						"buffer_size": 2988,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2969,
+								2969
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1518.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -127,6 +239,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 150.0,
+	"side_bar_width": 229.0,
 	"status_bar_visible": true
 }
