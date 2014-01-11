@@ -11,7 +11,7 @@
 			"file": "_pages/index/carousel.erb",
 			"settings":
 			{
-				"buffer_size": 602,
+				"buffer_size": 625,
 				"line_ending": "CR"
 			}
 		},
@@ -19,7 +19,7 @@
 			"file": "_pages/index/main.erb",
 			"settings":
 			{
-				"buffer_size": 4223,
+				"buffer_size": 6310,
 				"line_ending": "CR"
 			}
 		},
@@ -27,7 +27,23 @@
 			"file": "_layouts/home-layout.erb",
 			"settings":
 			{
-				"buffer_size": 4247,
+				"buffer_size": 4688,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 11501,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/carousel.scss",
+			"settings":
+			{
+				"buffer_size": 2749,
 				"line_ending": "Windows"
 			}
 		}
@@ -63,7 +79,7 @@
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 38.0
 	},
 	"find_in_files":
 	{
@@ -77,6 +93,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"featurette-heading ",
+			"face"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -94,7 +112,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -102,15 +120,15 @@
 					"file": "_pages/index/carousel.erb",
 					"settings":
 					{
-						"buffer_size": 602,
+						"buffer_size": 625,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								276,
-								276
+								533,
+								329
 							]
 						],
 						"settings":
@@ -130,15 +148,15 @@
 					"file": "_pages/index/main.erb",
 					"settings":
 					{
-						"buffer_size": 4223,
+						"buffer_size": 6310,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3602,
-								3602
+								3395,
+								3395
 							]
 						],
 						"settings":
@@ -148,7 +166,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 418.0,
+						"translation.y": 528.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -158,15 +176,15 @@
 					"file": "_layouts/home-layout.erb",
 					"settings":
 					{
-						"buffer_size": 4247,
+						"buffer_size": 4688,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1342,
-								1143
+								4668,
+								4236
 							]
 						],
 						"settings":
@@ -176,7 +194,63 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1782.0,
+						"translation.y": 990.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 11501,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 440.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "css/carousel.scss",
+					"settings":
+					{
+						"buffer_size": 2749,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2738,
+								2738
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2638.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -230,11 +304,15 @@
 	},
 	"select_project":
 	{
-		"height": 0.0,
+		"height": 500.0,
 		"selected_items":
 		[
+			[
+				"",
+				"/C/Users/Cookie/Dropbox/Companies/iTutor Tech/itutor.cdn/_email-templates/emails.sublime-project"
+			]
 		],
-		"width": 0.0
+		"width": 380.0
 	},
 	"show_minimap": true,
 	"show_open_files": false,
