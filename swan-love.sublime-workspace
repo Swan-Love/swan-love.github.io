@@ -8,42 +8,44 @@
 	"buffers":
 	[
 		{
-			"file": "_pages/index/carousel.erb",
+			"file": "_pages/about/intro.html",
 			"settings":
 			{
-				"buffer_size": 625,
-				"line_ending": "CR"
+				"buffer_size": 29,
+				"line_ending": "Windows",
+				"name": "intro.html"
 			}
 		},
 		{
-			"file": "_pages/index/main.erb",
+			"file": "_pages/about/main.html",
 			"settings":
 			{
-				"buffer_size": 6310,
-				"line_ending": "CR"
+				"buffer_size": 447,
+				"line_ending": "Windows",
+				"name": "main.html"
 			}
 		},
 		{
-			"file": "_layouts/home-layout.erb",
+			"file": "_pages/about/leadin.html",
 			"settings":
 			{
-				"buffer_size": 4688,
+				"buffer_size": 39,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "index.html",
+			"file": "_layouts/layout.erb",
 			"settings":
 			{
-				"buffer_size": 11501,
-				"line_ending": "Windows"
+				"buffer_size": 4183,
+				"line_ending": "CR"
 			}
 		},
 		{
-			"file": "css/carousel.scss",
+			"file": "css/layout.scss",
 			"settings":
 			{
-				"buffer_size": 2749,
+				"buffer_size": 58394,
 				"line_ending": "Windows"
 			}
 		}
@@ -51,15 +53,27 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 0.0,
+		"height": 392.0,
 		"selected_items":
 		[
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			]
 		],
-		"width": 0.0
+		"width": 400.0
 	},
 	"console":
 	{
-		"height": 0.0
+		"height": 174.0
 	},
 	"distraction_free":
 	{
@@ -73,6 +87,9 @@
 	"file_history":
 	[
 		"/C/Users/Cookie/Documents/GitHub/swan-love.github.io/index.html",
+		"/C/Users/Cookie/Documents/GitHub/swan-love.github.io/css/carousel.scss",
+		"/C/Users/Cookie/Documents/GitHub/swan-love.github.io/_pages/index/carousel.erb",
+		"/C/Users/Cookie/Documents/GitHub/swan-love.github.io/_pages/index/main.erb",
 		"/C/Users/Cookie/Documents/GitHub/swan-love.github.io/_layouts/home-layout.erb",
 		"/C/Users/Cookie/Documents/GitHub/swan-love.github.io/_layouts/layout.erb",
 		"/C/Users/Cookie/Documents/GitHub/swan-love.github.io/_config.yml"
@@ -112,30 +129,29 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 4,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "_pages/index/carousel.erb",
+					"file": "_pages/about/intro.html",
 					"settings":
 					{
-						"buffer_size": 625,
+						"buffer_size": 29,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								533,
-								329
+								29,
+								29
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"auto_name": "intro.html",
+							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -145,46 +161,71 @@
 				},
 				{
 					"buffer": 1,
-					"file": "_pages/index/main.erb",
+					"file": "_pages/about/main.html",
 					"settings":
 					{
-						"buffer_size": 6310,
+						"buffer_size": 447,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3395,
-								3395
+								447,
+								447
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"auto_name": "main.html",
+							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 528.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "_layouts/home-layout.erb",
+					"file": "_pages/about/leadin.html",
 					"settings":
 					{
-						"buffer_size": 4688,
+						"buffer_size": 39,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4668,
-								4236
+								39,
+								39
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "_layouts/layout.erb",
+					"settings":
+					{
+						"buffer_size": 4183,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2528,
+								2528
 							]
 						],
 						"settings":
@@ -194,63 +235,35 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 990.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "index.html",
-					"settings":
-					{
-						"buffer_size": 11501,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 440.0,
+						"translation.y": 1298.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 4,
-					"file": "css/carousel.scss",
+					"file": "css/layout.scss",
 					"settings":
 					{
-						"buffer_size": 2749,
+						"buffer_size": 58394,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2738,
-								2738
+								83,
+								83
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2638.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -264,7 +277,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 38.0
 	},
 	"layout":
 	{
