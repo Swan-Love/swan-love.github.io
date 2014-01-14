@@ -23,7 +23,7 @@
 			"file": "_pages/index/main.erb",
 			"settings":
 			{
-				"buffer_size": 6223,
+				"buffer_size": 6354,
 				"line_ending": "CR"
 			}
 		},
@@ -72,14 +72,14 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Cookie/Documents/GitHub/swan-love.github.io/_pages/about/main.html",
+		"/C/Users/Cookie/Documents/GitHub/swan-love.github.io/index.html",
 		"/C/Users/Cookie/Dropbox/Shares/Nant-y-cwm/nant-y-cwm.co.uk/_layouts/layout.erb",
 		"/C/Users/Cookie/Documents/GitHub/swan-love.github.io/_layouts/contact-modal.erb",
 		"/C/Users/Cookie/Documents/GitHub/swan-love.github.io/css/layout.scss",
 		"/C/Users/Cookie/Documents/GitHub/swan-love.github.io/_layouts/layout.erb",
-		"/C/Users/Cookie/Documents/GitHub/swan-love.github.io/_pages/about/main.html",
 		"/C/Users/Cookie/Documents/GitHub/swan-love.github.io/_pages/about/intro.html",
 		"/C/Users/Cookie/Documents/GitHub/swan-love.github.io/_pages/about/leadin.html",
-		"/C/Users/Cookie/Documents/GitHub/swan-love.github.io/index.html",
 		"/C/Users/Cookie/Documents/GitHub/swan-love.github.io/css/carousel.scss",
 		"/C/Users/Cookie/Documents/GitHub/swan-love.github.io/_pages/index/carousel.erb",
 		"/C/Users/Cookie/Documents/GitHub/swan-love.github.io/_pages/index/main.erb",
@@ -123,6 +123,7 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -158,15 +159,15 @@
 					"file": "_pages/index/main.erb",
 					"settings":
 					{
-						"buffer_size": 6223,
+						"buffer_size": 6354,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2421,
-								2421
+								2292,
+								2292
 							]
 						],
 						"settings":
@@ -176,7 +177,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 820.0,
+						"translation.y": 776.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -263,7 +264,7 @@
 		[
 			[
 				"",
-				"/C/Users/Cookie/Dropbox/Companies/iTutor Tech/itutor.cdn/_email-templates/emails.sublime-project"
+				"/C/Code/qsonic.qsonic/qsonic.sublime-project"
 			]
 		],
 		"width": 380.0
