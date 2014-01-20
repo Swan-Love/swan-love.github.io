@@ -1,0 +1,84 @@
+<div class="bs-callout bs-callout-info">
+    <h4>18:00-20:00</h4>
+    <strong>Art Exhibition and Harpists</strong>
+    <p>Start the evening off and enjoy a drink while perusing around the Art Exhibition by Cassandra Tainsh while our talented Harpists <a href="http://www.rubypaul.com/" target="_blank">Ruby Paul</a> &amp; Bernie serenade you. </p>
+</div>
+
+<div class="bs-callout bs-callout-info">
+    <h4>20:00-20:45</h4>
+    <strong>Contemporary Dancing</strong>
+    <p>A number of dance artists (Ruth McNulty, Maud Bramback, Izzy Brittain) from the Northern School of Contemporary Dance in Leeds are putting on a very special performance for Swan Love.</p>
+</div>
+
+<div class="bs-callout bs-callout-info">
+    <h4>20:45-21:00</h4>
+    <strong>Burlesque</strong>
+    <p>The talented Baroness Guillem will tantalise all your senses in her theatrical and humorous Burlesque performance.</p>
+</div>
+
+<div class="bs-callout bs-callout-danger">
+    <h4>21:00-21:30</h4>
+    <strong>Raffle</strong>
+    <p>Welcome talk with a Hand in Hand for Syria charity representative and a raffle - five top prizes to be won, which includes a meal for two.</p>
+</div>
+
+<div class="bs-callout bs-callout-warning">
+    <h4>21:30-22:30</h4>
+    <strong>DJ JD featuring Bernadett Tillmann</strong>
+    <p>JD kick starts the evening's music entertainment with some sun drenched Balearic tunes as Bernadett free styles to the tunes on a percussion instrument called a Cajon.</p>
+</div>
+
+<div class="bs-callout bs-callout-warning">
+    <h4>22:30-23:30</h4>
+    <strong>DJ Russthelovemust</strong>
+    <p>Get ready to step it up gear as we take the music to a different level with some good old electro and progressive house.</p>
+</div>
+
+<div class="bs-callout bs-callout-warning">
+    <h4>23:30-00:30</h4>
+    <strong>DJ Cat  featuring Arran Kent</strong>
+    <p>Cat is joined on the dance floor with Arran on Saxophone as he jams to her uplifting tunes.</p>
+</div>
+
+<div class="bs-callout bs-callout-warning">
+    <h4>00:30-02:00</h4>
+    <strong>DJ Tim featuring Jessica Crabtree</strong>
+    <p>Tim signs off the night's entertainment with the lovely Jessica free styling to the grooves.</p>
+</div>
+
+<hr class="featurette-divider">
+
+<blockquote>
+    <img src="~/images/events/valentines-heart.jpg" class="pull-right img-rounded img-thumbnail">
+    <h3 class="text-success">"The wise man does not lay up his own treasures.<br />
+    The more he gives to others,<br />
+    the more he has for his own."</h3>
+    - Laozi
+</blockquote>
+
+
+<link rel="stylesheet" type="text/css" href="/css/jquery.flipcountdown.css" />
+<script type="text/javascript" src="~/js/jquery.flipcountdown.js"></script>
+
+<script>
+    $(function(){
+
+     var countDown = Math.round((new Date('02/14/2014 19:00:00')).getTime()/1000);
+     $('#count-down').flipcountdown({ 
+        size:'lg',
+        tick:function(){
+            var nol = function(h){
+                return h>9?h:'0'+h;
+            }
+            var range   =   countDown-Math.round((new Date()).getTime()/1000),
+                secday  =   86400, sechour = 3600,
+                days    =   parseInt(range/secday),
+                hours   =   parseInt((range%secday)/sechour),
+                min =   parseInt(((range%secday)%sechour)/60),
+                sec =   ((range%secday)%sechour)%60;
+            return nol(days)+' '+nol(hours)+' '+nol(min)+' '+nol(sec);
+        }
+     });
+
+    })
+</script>

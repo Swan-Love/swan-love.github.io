@@ -39,9 +39,11 @@
               <a class="navbar-brand" href="/">Swan Love</a>
             </div>
             <div class="navbar-collapse collapse">
-              <ul class="nav navbar-nav">
-                <li><a href="http://www.wegottickets.com/event/253891">Tickets</a></li>
-                <li><a href="https://swanlove.wufoo.com/forms/z1u277000phlf3s/" class="amodal" data-title="Get in Touch">Contact</a></li>
+              <%= Scms.renderView("_layouts/nav.erb", page) %>
+              <ul class="nav navbar-nav navbar-right">
+                <li>
+                  <a href="https://swanlove.wufoo.com/forms/z1u277000phlf3s/" class="amodal" data-title="Get in Touch">Contact &nbsp; &nbsp;</a>
+                </li>
               </ul>
             </div>
           </div>
@@ -77,7 +79,21 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="~/js/bootstrap.min.js"></script>
-    <script src="~/js/shims/holder.js"></script>
+    <script src="~/js/jquery.cookie.js"></script>
+    <script>
+      $(function(){
+        var firstRun = $.cookie('first_visit');
+
+        if(firstRun == undefined){
+          $.cookie('first_visit', false, { expires: 31, path: '/' });
+
+          var v = document.getElementsByTagName("audio")[0];
+          if(v != null)
+            v.play();
+        }
+
+      });
+    </script>
     <%= page.monkeyhook %>
     <%= page.livereload %>
     

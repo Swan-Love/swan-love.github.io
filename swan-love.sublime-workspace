@@ -12,31 +12,31 @@
 	"buffers":
 	[
 		{
-			"file": "_layouts/home-layout.erb",
+			"file": "_pages/about/main.html",
 			"settings":
 			{
-				"buffer_size": 3137,
+				"buffer_size": 13119,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "_pages/index/main.erb",
+			"file": "_pages/valentines-entertainment/main.html",
 			"settings":
 			{
-				"buffer_size": 6354,
-				"line_ending": "CR"
+				"buffer_size": 3415,
+				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "_layouts/layout.erb",
+			"file": "_pages/charity/main.html",
 			"settings":
 			{
-				"buffer_size": 3464,
-				"line_ending": "CR"
+				"buffer_size": 1233,
+				"line_ending": "Windows"
 			}
 		}
 	],
-	"build_system": "",
+	"build_system": "Packages/User/scms.sublime-build",
 	"command_palette":
 	{
 		"height": 392.0,
@@ -72,18 +72,39 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Cookie/Documents/GitHub/swan-love.github.io/_layouts/nav.erb",
 		"/C/Users/Cookie/Documents/GitHub/swan-love.github.io/_pages/about/main.html",
+		"/C/Users/Cookie/Documents/GitHub/swan-love.github.io/_pages/charitys/intro.html",
+		"/C/Users/Cookie/Documents/GitHub/swan-love.github.io/_pages/charitys/leadin.txt",
+		"/C/Users/Cookie/Documents/GitHub/swan-love.github.io/_pages/charitys/main.html",
+		"/C/Users/Cookie/Documents/GitHub/swan-love.github.io/_pages/about/leadin.txt",
+		"/C/Users/Cookie/Documents/GitHub/swan-love.github.io/_layouts/layout.erb",
+		"/C/Users/Cookie/Documents/GitHub/swan-love.github.io/_layouts/home-layout.erb",
+		"/C/Users/Cookie/Documents/GitHub/swan-love.github.io/_pages/charities/main.html",
+		"/C/Users/Cookie/Documents/GitHub/swan-love.github.io/charitys.html",
+		"/C/Users/Cookie/Documents/GitHub/swan-love.github.io/_pages/about/leadin.html",
+		"/C/Users/Cookie/Documents/GitHub/swan-love.github.io/_pages/index/main.html",
+		"/C/Users/Cookie/Documents/GitHub/swan-love.github.io/_pages/index/twitter.erb",
+		"/C/Users/Cookie/Documents/GitHub/swan-love.github.io/_pages/index/social.erb",
+		"/C/Users/Cookie/Documents/GitHub/swan-love.github.io/_pages/valentines-entertainment/main.html",
+		"/C/Users/Cookie/Documents/GitHub/swan-love.github.io/_pages/valentines-entertainment/intro.html",
+		"/C/Users/Cookie/Documents/GitHub/swan-love.github.io/_pages/donate/intro.html",
+		"/C/Users/Cookie/Documents/GitHub/swan-love.github.io/_pages/donate/leadin.txt",
+		"/C/Users/Cookie/Documents/GitHub/swan-love.github.io/_pages/donate/main.html",
+		"/C/Users/Cookie/Documents/GitHub/swan-love.github.io/css/jquery.flipcountdown.css",
+		"/C/Users/Cookie/Documents/GitHub/swan-love.github.io/_pages/about/intro.md",
+		"/C/Users/Cookie/Documents/GitHub/swan-love.github.io/_pages/index/twitter-text.txt",
 		"/C/Users/Cookie/Documents/GitHub/swan-love.github.io/index.html",
+		"/C/Users/Cookie/Documents/GitHub/swan-love.github.io/_pages/index/main.erb",
+		"/C/Users/Cookie/Documents/GitHub/swan-love.github.io/about.html",
+		"/C/Users/Cookie/Documents/GitHub/swan-love.github.io/_pages/index/carousel.erb",
+		"/C/Users/Cookie/Documents/GitHub/swan-love.github.io/_pages/about/intro.html",
+		"/C/Users/Cookie/AppData/Roaming/Sublime Text 2/Packages/User/scms.sublime-build",
+		"/C/Users/Cookie/Documents/GitHub/swan-love.github.io/_pages/valentines-entertainment/leadin.html",
 		"/C/Users/Cookie/Dropbox/Shares/Nant-y-cwm/nant-y-cwm.co.uk/_layouts/layout.erb",
 		"/C/Users/Cookie/Documents/GitHub/swan-love.github.io/_layouts/contact-modal.erb",
 		"/C/Users/Cookie/Documents/GitHub/swan-love.github.io/css/layout.scss",
-		"/C/Users/Cookie/Documents/GitHub/swan-love.github.io/_layouts/layout.erb",
-		"/C/Users/Cookie/Documents/GitHub/swan-love.github.io/_pages/about/intro.html",
-		"/C/Users/Cookie/Documents/GitHub/swan-love.github.io/_pages/about/leadin.html",
 		"/C/Users/Cookie/Documents/GitHub/swan-love.github.io/css/carousel.scss",
-		"/C/Users/Cookie/Documents/GitHub/swan-love.github.io/_pages/index/carousel.erb",
-		"/C/Users/Cookie/Documents/GitHub/swan-love.github.io/_pages/index/main.erb",
-		"/C/Users/Cookie/Documents/GitHub/swan-love.github.io/_layouts/home-layout.erb",
 		"/C/Users/Cookie/Documents/GitHub/swan-love.github.io/_config.yml"
 	],
 	"find":
@@ -95,6 +116,7 @@
 		"height": 0.0,
 		"where_history":
 		[
+			"C:\\Users\\Cookie\\Documents\\GitHub\\swan-love.github.io"
 		]
 	},
 	"find_state":
@@ -102,6 +124,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"./img/",
+			"signs",
+			"Tim signs",
+			"Change keep up to date",
+			"Type of music",
 			"bs-docs-na",
 			"container",
 			"featurette-heading ",
@@ -113,6 +140,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"../images/flipcountdown/"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -123,89 +151,86 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "_layouts/home-layout.erb",
+					"file": "_pages/about/main.html",
 					"settings":
 					{
-						"buffer_size": 3137,
+						"buffer_size": 13119,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1804,
-								1764
+								2944,
+								2944
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 462.0,
+						"translation.y": 594.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "_pages/index/main.erb",
+					"file": "_pages/valentines-entertainment/main.html",
 					"settings":
 					{
-						"buffer_size": 6354,
+						"buffer_size": 3415,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2292,
-								2292
+								2322,
+								2229
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
-							"tab_size": 2,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 776.0,
+						"translation.y": 968.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "_layouts/layout.erb",
+					"file": "_pages/charity/main.html",
 					"settings":
 					{
-						"buffer_size": 3464,
+						"buffer_size": 1233,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1912,
-								1912
+								1093,
+								1093
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 528.0,
+						"translation.y": 163.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -244,9 +269,13 @@
 		]
 	},
 	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 142.0
+	},
 	"replace":
 	{
-		"height": 0.0
+		"height": 70.0
 	},
 	"save_all_on_build": true,
 	"select_file":
