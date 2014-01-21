@@ -1,1 +1,1 @@
-Swan Love Events is a creative collective of talented artists who harness the power of music, dance, art and media
+Swan Love is a creative collective of talented artists, musicians and performers
