@@ -3,14 +3,18 @@
 	{
 		"selected_items":
 		[
-			[
-				"pr",
-				"primary-light"
-			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "_pages/index/main.html",
+			"settings":
+			{
+				"buffer_size": 3126,
+				"line_ending": "CR"
+			}
+		},
 		{
 			"file": "_pages/about/main.html",
 			"settings":
@@ -18,48 +22,23 @@
 				"buffer_size": 13119,
 				"line_ending": "Windows"
 			}
-		},
-		{
-			"file": "_pages/valentines-entertainment/main.html",
-			"settings":
-			{
-				"buffer_size": 3415,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "_pages/charity/main.html",
-			"settings":
-			{
-				"buffer_size": 1233,
-				"line_ending": "Windows"
-			}
 		}
 	],
-	"build_system": "Packages/User/scms.sublime-build",
+	"build_system": "",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 0.0,
 		"selected_items":
 		[
-			[
-				"in",
-				"Package Control: Install Package"
-			],
-			[
-				"inst",
-				"Package Control: Install Package"
-			],
-			[
-				"pack",
-				"Package Control: Install Package"
-			]
 		],
-		"width": 400.0
+		"width": 0.0
 	},
 	"console":
 	{
-		"height": 174.0
+		"height": 0.0,
+		"history":
+		[
+		]
 	},
 	"distraction_free":
 	{
@@ -72,51 +51,44 @@
 	},
 	"file_history":
 	[
-		"/C/Users/Cookie/Documents/GitHub/swan-love.github.io/_layouts/nav.erb",
-		"/C/Users/Cookie/Documents/GitHub/swan-love.github.io/_pages/about/main.html",
-		"/C/Users/Cookie/Documents/GitHub/swan-love.github.io/_pages/charitys/intro.html",
-		"/C/Users/Cookie/Documents/GitHub/swan-love.github.io/_pages/charitys/leadin.txt",
-		"/C/Users/Cookie/Documents/GitHub/swan-love.github.io/_pages/charitys/main.html",
-		"/C/Users/Cookie/Documents/GitHub/swan-love.github.io/_pages/about/leadin.txt",
-		"/C/Users/Cookie/Documents/GitHub/swan-love.github.io/_layouts/layout.erb",
-		"/C/Users/Cookie/Documents/GitHub/swan-love.github.io/_layouts/home-layout.erb",
-		"/C/Users/Cookie/Documents/GitHub/swan-love.github.io/_pages/charities/main.html",
-		"/C/Users/Cookie/Documents/GitHub/swan-love.github.io/charitys.html",
-		"/C/Users/Cookie/Documents/GitHub/swan-love.github.io/_pages/about/leadin.html",
-		"/C/Users/Cookie/Documents/GitHub/swan-love.github.io/_pages/index/main.html",
-		"/C/Users/Cookie/Documents/GitHub/swan-love.github.io/_pages/index/twitter.erb",
-		"/C/Users/Cookie/Documents/GitHub/swan-love.github.io/_pages/index/social.erb",
-		"/C/Users/Cookie/Documents/GitHub/swan-love.github.io/_pages/valentines-entertainment/main.html",
-		"/C/Users/Cookie/Documents/GitHub/swan-love.github.io/_pages/valentines-entertainment/intro.html",
-		"/C/Users/Cookie/Documents/GitHub/swan-love.github.io/_pages/donate/intro.html",
-		"/C/Users/Cookie/Documents/GitHub/swan-love.github.io/_pages/donate/leadin.txt",
-		"/C/Users/Cookie/Documents/GitHub/swan-love.github.io/_pages/donate/main.html",
-		"/C/Users/Cookie/Documents/GitHub/swan-love.github.io/css/jquery.flipcountdown.css",
-		"/C/Users/Cookie/Documents/GitHub/swan-love.github.io/_pages/about/intro.md",
-		"/C/Users/Cookie/Documents/GitHub/swan-love.github.io/_pages/index/twitter-text.txt",
-		"/C/Users/Cookie/Documents/GitHub/swan-love.github.io/index.html",
-		"/C/Users/Cookie/Documents/GitHub/swan-love.github.io/_pages/index/main.erb",
-		"/C/Users/Cookie/Documents/GitHub/swan-love.github.io/about.html",
-		"/C/Users/Cookie/Documents/GitHub/swan-love.github.io/_pages/index/carousel.erb",
-		"/C/Users/Cookie/Documents/GitHub/swan-love.github.io/_pages/about/intro.html",
-		"/C/Users/Cookie/AppData/Roaming/Sublime Text 2/Packages/User/scms.sublime-build",
-		"/C/Users/Cookie/Documents/GitHub/swan-love.github.io/_pages/valentines-entertainment/leadin.html",
+		"/C/Users/Cookie/Documents/GitHub/Static-CMS/lib/scms/scms-utils.rb",
+		"/C/Users/Cookie/Documents/GitHub/Static-CMS/lib/scms.rb",
+		"/C/Users/Cookie/Documents/GitHub/Static-CMS/lib/scms/scms-parser.rb",
+		"/C/Users/Cookie/Documents/GitHub/Static-CMS/lib/scms/version.rb",
+		"/C/Users/Cookie/Documents/GitHub/Static-CMS/lib/scms/scms-pageoptions.rb",
+		"/C/Users/Cookie/Documents/GitHub/Static-CMS/setup.cmd",
+		"/C/Users/Cookie/Documents/GitHub/Static-CMS/_layouts/nav.erb",
+		"/C/Users/Cookie/Documents/GitHub/Static-CMS/_pages/index/intro.erb",
+		"/C/Users/Cookie/Documents/GitHub/Static-CMS/_pages/structure/main.erb",
+		"/C/Users/Cookie/Documents/GitHub/Static-CMS/stylesheets/scms.bundle",
+		"/C/Users/Cookie/Documents/GitHub/Static-CMS/_config.yml",
+		"/C/Users/Cookie/Documents/GitHub/Static-CMS/_layouts/hero.html",
+		"/C/Users/Cookie/Documents/GitHub/Static-CMS/_pages/structure/intro.erb",
+		"/C/Users/Cookie/Documents/GitHub/Static-CMS/scripts/libraries.bundle",
+		"/C/Users/Cookie/Documents/GitHub/Static-CMS/stylesheets/home.bundle",
+		"/C/Users/Cookie/Documents/GitHub/Static-CMS/_pages/index/_config.yml",
+		"/C/Users/Cookie/Documents/GitHub/Static-CMS/_templates/nav.erb",
+		"/C/Users/Cookie/Documents/GitHub/Static-CMS/_templates/hero.html",
+		"/C/Users/Cookie/Documents/GitHub/Static-CMS/_pages/deploy/_config.yml",
+		"/C/Users/Cookie/Documents/GitHub/Static-CMS/_pages/structure/_config.yml",
+		"/C/Users/Cookie/Documents/GitHub/Static-CMS/_pages/options/_config.yml",
+		"/C/Users/Cookie/Documents/GitHub/Static-CMS/_pages/prerequisites/_config.yml",
+		"/C/Users/Cookie/Documents/GitHub/Static-CMS/assets/blank-template/_layouts/layout.erb",
+		"/C/Users/Cookie/Dropbox/Shares/Nant-y-cwm/nant-y-cwm.co.uk/_layouts/footer.erb",
+		"/C/Users/Cookie/Documents/GitHub/Static-CMS/assets/blank-template/_layouts/home-layout.erb",
 		"/C/Users/Cookie/Dropbox/Shares/Nant-y-cwm/nant-y-cwm.co.uk/_layouts/layout.erb",
-		"/C/Users/Cookie/Documents/GitHub/swan-love.github.io/_layouts/contact-modal.erb",
-		"/C/Users/Cookie/Documents/GitHub/swan-love.github.io/css/layout.scss",
-		"/C/Users/Cookie/Documents/GitHub/swan-love.github.io/css/carousel.scss",
-		"/C/Users/Cookie/Documents/GitHub/swan-love.github.io/_config.yml"
+		"/C/Users/Cookie/Dropbox/Shares/Nant-y-cwm/nant-y-cwm.co.uk/_layouts/nant-y-cwm-home.erb"
 	],
 	"find":
 	{
-		"height": 38.0
+		"height": 26.0
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 90.0,
 		"where_history":
 		[
-			"C:\\Users\\Cookie\\Documents\\GitHub\\swan-love.github.io"
+			"C:\\Users\\Cookie\\Documents\\GitHub\\Static-CMS"
 		]
 	},
 	"find_state":
@@ -124,15 +96,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"./img/",
-			"signs",
-			"Tim signs",
-			"Change keep up to date",
-			"Type of music",
-			"bs-docs-na",
-			"container",
-			"featurette-heading ",
-			"face"
+			".encode('UTF-8'",
+			"encode",
+			"pageOptions",
+			"resource",
+			"PageOptions",
+			"reload"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -140,7 +109,6 @@
 		"regex": false,
 		"replace_history":
 		[
-			"../images/flipcountdown/"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -151,22 +119,24 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "_pages/about/main.html",
+					"file": "_pages/index/main.html",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 13119,
+						"buffer_size": 3126,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2944,
-								2944
+								789,
+								789
 							]
 						],
 						"settings":
@@ -176,63 +146,40 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 594.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "_pages/valentines-entertainment/main.html",
+					"file": "_pages/about/main.html",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 3415,
+						"buffer_size": 13119,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2322,
-								2229
+								12251,
+								10979
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
+							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 968.0,
+						"translation.y": 2484.0,
 						"zoom_level": 1.0
 					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "_pages/charity/main.html",
-					"settings":
-					{
-						"buffer_size": 1233,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1093,
-								1093
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 163.0,
-						"zoom_level": 1.0
-					},
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -240,7 +187,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 0.0
+		"height": 26.0
 	},
 	"input":
 	{
@@ -269,13 +216,14 @@
 		]
 	},
 	"menu_visible": true,
-	"output.exec":
+	"output.find_results":
 	{
-		"height": 142.0
+		"height": 0.0
 	},
+	"project": "swan-love.sublime-project",
 	"replace":
 	{
-		"height": 70.0
+		"height": 48.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -293,15 +241,29 @@
 		[
 			[
 				"",
-				"/C/Code/qsonic.qsonic/qsonic.sublime-project"
+				"C:\\Users\\Cookie\\Dropbox\\Companies\\iTutor Tech\\itutor.cdn\\_email-templates\\emails.sublime-project"
 			]
 		],
 		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
 	},
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 229.0,
-	"status_bar_visible": true
+	"side_bar_width": 205.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
 }
