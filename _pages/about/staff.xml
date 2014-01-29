@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="_layouts/boxes.xsl"?>
+<boxes>
+	<box name="Angelo Mazzeo" img="~/images/about/maz.png">
+		<![CDATA[
+		<p>Maz is the founder and inspiration behind Swan Love and has more than 10 years&#39; events experience. Originally from Cornwall Maz was renown for his charitable parties raising money for organisations such as Campaign Against the Arms Trade with his night The Seaside Tribe. During the summer of 2013 he read Trueman Capote&#39;s &#39;Party of the Century&#39;, this book inspired him to party again and Swan Love was born. Maz is a true connecter, bringing people together and likes to know everyone. At the end of 2013 he discovered the power of social media and now everyone can be a potential connection!</p>
+      	<p><a class="btn btn-primary" href="https://www.facebook.com/angelo.maz" role="button" target="_blank">Facebook</a> <a class="btn btn-default" href="http://www.linkedin.com/groups/Swan-Love-Events-6522019?" role="button" target="_blank">Linkedin</a></p>
+		]]>
+	</box>
+	<box name="David Frazier" img="~/images/about/david-frazier.jpg">
+		<![CDATA[
+		<p>Dave has been part of Swan Love since it&#39;s conception and is part of the steering group and a proud key sponsor. Dangerous, as he&#39;s fondly known as at Swan Towers, is the digital marketing guru who loves his gadgets and wishes Maz would swap his Nokia 3310 for an iPhone.</p>
+        <p>When he&#39;s not swanning around he&#39;s creating avalanches as the busy Managing Director of <a href="http://www.snowballdigital.co.uk" target="_blank">Snowball Digital</a>.</p>
+		]]>
+	</box>
+	<box name="Danielle Lindley" img="~/images/about/danni-lindley.jpg">
+		<![CDATA[
+		<p>Sat in a sun drenched beer garden in 2013, Danni helped to inspire and encourage Maz into making their conversations of an events business a reality. Danni is part of the steering group bringing her love and passion for getting people together through events and parties. She has eight years&#39; experience in PR and is a keen photographer, loving nothing more than wandering around the streets of Leeds capturing it&#39;s beauty and diversity.</p>
+		]]>
+	</box>
+</boxes>

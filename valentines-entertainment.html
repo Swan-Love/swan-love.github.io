@@ -16,7 +16,33 @@
 	<tr>
 		<td colspan="4"><span id="count-down"></span></td>
 	</tr>
-</tbody></table>      </div>    </div>    <!-- Callout for the old docs link -->    <div class="bs-old-docs">      <div class="container">        There will be artists and magicians mingling among the crowd all evening to entertain and mystify you!       </div>    </div>    <div class="container bs-docs-container">      <div class="row">        <div class="col-md-12" role="main" style="margin-top: 25px;">          <div class="bs-callout bs-callout-info">
+</tbody></table>
+
+<link rel="stylesheet" type="text/css" href="/css/jquery.flipcountdown.css" />
+<script type="text/javascript" src="/js/jquery.flipcountdown.js"></script>
+
+<script>
+    $(function(){
+
+     var countDown = Math.round((new Date('02/14/2014 19:00:00')).getTime()/1000);
+     $('#count-down').flipcountdown({ 
+        size:'lg',
+        tick:function(){
+            var nol = function(h){
+                return h>9?h:'0'+h;
+            }
+            var range   =   countDown-Math.round((new Date()).getTime()/1000),
+                secday  =   86400, sechour = 3600,
+                days    =   parseInt(range/secday),
+                hours   =   parseInt((range%secday)/sechour),
+                min =   parseInt(((range%secday)%sechour)/60),
+                sec =   ((range%secday)%sechour)%60;
+            return nol(days)+' '+nol(hours)+' '+nol(min)+' '+nol(sec);
+        }
+     });
+
+    })
+</script>      </div>    </div>    <!-- Callout for the old docs link -->    <div class="bs-old-docs">      <div class="container">        There will be artists and magicians mingling among the crowd all evening to entertain and mystify you!       </div>    </div>    <div class="container bs-docs-container">      <div class="row">        <div class="col-md-12" role="main" style="margin-top: 25px;">          <div class="bs-callout bs-callout-info">
     <h4>18:00-20:00</h4>
     <strong>Art Exhibition and Harpists</strong>
     <p>Start the evening off and enjoy a drink while perusing around the Art Exhibition by Cassandra Tainsh while our talented Harpists <a href="http://www.rubypaul.com/" target="_blank">Ruby Paul</a> &amp; Bernie serenade you. </p>
@@ -75,31 +101,7 @@
 </blockquote>
 
 
-<link rel="stylesheet" type="text/css" href="/css/jquery.flipcountdown.css" />
-<script type="text/javascript" src="/js/jquery.flipcountdown.js"></script>
-
-<script>
-    $(function(){
-
-     var countDown = Math.round((new Date('02/14/2014 19:00:00')).getTime()/1000);
-     $('#count-down').flipcountdown({ 
-        size:'lg',
-        tick:function(){
-            var nol = function(h){
-                return h>9?h:'0'+h;
-            }
-            var range   =   countDown-Math.round((new Date()).getTime()/1000),
-                secday  =   86400, sechour = 3600,
-                days    =   parseInt(range/secday),
-                hours   =   parseInt((range%secday)/sechour),
-                min =   parseInt(((range%secday)%sechour)/60),
-                sec =   ((range%secday)%sechour)%60;
-            return nol(days)+' '+nol(hours)+' '+nol(min)+' '+nol(sec);
-        }
-     });
-
-    })
-</script>        </div>      </div>    </div>    <!-- Footer    ================================================== -->    <footer class="bs-footer" role="contentinfo">      <div class="container">        <p>&copy; 2014 Swan Love. &middot; Sponsors: <a href="http://www.ipassexam.com" target="_blank">iTutor Ltd</a>, <a href="http://www.snowballdigital.co.uk" target="_blank">Snowball Digital Ltd</a>, <a href="http://www.ignitepyro.com" target="_blank">Ignite Pyrotechnics Ltd</a></p>      </div>    </footer>    <!-- Bootstrap core JavaScript    ================================================== -->    <!-- Placed at the end of the document so the pages load faster -->    <script src="/js/bootstrap.min.js"></script>    <script src="/js/shims/holder.js"></script>    <script src="/js/application.js"></script>              <div class="modal fade" id="iModal">
+        </div>      </div>    </div>    <!-- Footer    ================================================== -->    <footer class="bs-footer" role="contentinfo">      <div class="container">        <p>&copy; 2014 Swan Love. &middot; Sponsors: <a href="http://www.ipassexam.com" target="_blank">iTutor Ltd</a>, <a href="http://www.snowballdigital.co.uk" target="_blank">Snowball Digital Ltd</a>, <a href="http://www.ignitepyro.com" target="_blank">Ignite Pyrotechnics Ltd</a></p>      </div>    </footer>    <!-- Bootstrap core JavaScript    ================================================== -->    <!-- Placed at the end of the document so the pages load faster -->    <script src="/js/bootstrap.min.js"></script>    <script src="/js/shims/holder.js"></script>    <script src="/js/application.js"></script>              <div class="modal fade" id="iModal">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">

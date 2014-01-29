@@ -11,64 +11,24 @@
 			"file": "_pages/index/main.html",
 			"settings":
 			{
-				"buffer_size": 3126,
+				"buffer_size": 2871,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_pages/about/collective.xml",
+			"settings":
+			{
+				"buffer_size": 12316,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_config.yml",
+			"settings":
+			{
+				"buffer_size": 30,
 				"line_ending": "CR"
-			}
-		},
-		{
-			"file": "_pages/index/twitter.erb",
-			"settings":
-			{
-				"buffer_size": 1096,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "_pages/about/intro.md",
-			"settings":
-			{
-				"buffer_size": 81,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "_pages/about/main.html",
-			"settings":
-			{
-				"buffer_size": 12342,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "_pages/charity/intro.html",
-			"settings":
-			{
-				"buffer_size": 74,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "_pages/charity/main.html",
-			"settings":
-			{
-				"buffer_size": 1741,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "_layouts/nav.erb",
-			"settings":
-			{
-				"buffer_size": 282,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "_pages/valentines-entertainment/main.html",
-			"settings":
-			{
-				"buffer_size": 3512,
-				"line_ending": "Windows"
 			}
 		}
 	],
@@ -99,6 +59,18 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Cookie/Dropbox/Shares/Swanlove/swan-love.github.io/_layouts/boxes.xsl",
+		"/C/Users/Cookie/Dropbox/Shares/Swanlove/swan-love.github.io/_pages/about/main.html",
+		"/C/Users/Cookie/Dropbox/Shares/Swanlove/swan-love.github.io/_pages/index/main.html",
+		"/C/Users/Cookie/Dropbox/Shares/Swanlove/swan-love.github.io/_pages/about/staff.xml",
+		"/C/Users/Cookie/Dropbox/Shares/Swanlove/swan-love.github.io/_pages/about/collective.xml",
+		"/C/Users/Cookie/Dropbox/Shares/Swanlove/swan-love.github.io/_pages/index/twitter.erb",
+		"/C/Users/Cookie/Dropbox/Shares/Swanlove/swan-love.github.io/_pages/about/intro.md",
+		"/C/Users/Cookie/Dropbox/Shares/Swanlove/swan-love.github.io/_layouts/home-layout.erb",
+		"/C/Users/Cookie/Dropbox/Shares/Swanlove/swan-love.github.io/_pages/charity/intro.html",
+		"/C/Users/Cookie/Dropbox/Shares/Swanlove/swan-love.github.io/_pages/charity/main.html",
+		"/C/Users/Cookie/Dropbox/Shares/Swanlove/swan-love.github.io/_pages/valentines-entertainment/main.html",
+		"/C/Users/Cookie/Dropbox/Shares/Swanlove/swan-love.github.io/_pages/valentines-entertainment/intro.erb",
 		"/C/Users/Cookie/Documents/GitHub/Static-CMS/lib/scms/scms-utils.rb",
 		"/C/Users/Cookie/Documents/GitHub/Static-CMS/lib/scms.rb",
 		"/C/Users/Cookie/Documents/GitHub/Static-CMS/lib/scms/scms-parser.rb",
@@ -168,7 +140,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -177,194 +149,20 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3126,
+						"buffer_size": 2871,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3079,
-								3079
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 46.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "_pages/index/twitter.erb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1096,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1059,
-								1059
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "_pages/about/intro.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 81,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								80,
-								80
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "_pages/about/main.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 12342,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								9167,
-								9167
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 2160.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "_pages/charity/intro.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 74,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								74,
-								74
+								750,
+								750
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "_pages/charity/main.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1741,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1677,
-								1677
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "_layouts/nav.erb",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 282,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								168,
-								178
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -374,33 +172,60 @@
 					"type": "text"
 				},
 				{
-					"buffer": 7,
-					"file": "_pages/valentines-entertainment/main.html",
+					"buffer": 1,
+					"file": "_pages/about/collective.xml",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3512,
+						"buffer_size": 12316,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1797,
-								1797
+								10737,
+								10737
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/XML/XML.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 378.0,
+						"translation.y": 2470.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "_config.yml",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 30,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								30,
+								30
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/YAML/YAML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -462,7 +287,7 @@
 		[
 			[
 				"",
-				"C:\\Users\\Cookie\\Dropbox\\Companies\\iTutor Tech\\itutor.cdn\\_email-templates\\emails.sublime-project"
+				"C:\\Users\\Cookie\\Documents\\GitHub\\Static-CMS\\scms.sublime-project"
 			]
 		],
 		"width": 380.0
