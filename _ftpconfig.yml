@@ -1,0 +1,7 @@
+host: geminian2.2plus1host.com
+port: 21
+username: swan
+password: s4wn!l0v31
+passive: true
+directory: /httpdocs/backup
+ssl: true

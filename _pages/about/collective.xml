@@ -5,6 +5,7 @@
 		<![CDATA[
 		<p><a href="http://www.rubypaul.com/" target="_blank">Ruby Paul</a> loved to sing from an early age - standing in a corner to perform to anyone who would listen. However, her childhood dream was to play the harp.</p>
 		<p>After selling her viola and graduating with a Music Degree from York University, Ruby invested in a 31 string harp and after a stint of busking, she played folk clubs and festivals. Ruby now has two new harps: a 34 string Clarsach, and a large glossy Black Camac Pedal Harp, her pride and joy.</p>
+		
 		<p>Ruby has produced three albums with her own material and performed at International Harp Festivals, at The Edinburgh Festival and BBC Look North. With a wide repertoire encompassing Classical, Pop and Folk, Ruby&#39;s passion is to mould her own unique arrangements of songs old and new and to create new music.</p>
 		]]>
 	</box>
@@ -12,37 +13,47 @@
 		<![CDATA[
 		<p>The man they call timbo justly deserves every accolade he&#39;s given for the richness of his musical diversity. A quality DJ listens to the crowd, providing a selection of tunes to entertain and enhance the ambience of the night, &amp; together we embark on a sweet journey, an emotional rollercoaster of dancing, flirting, laughing, loving and lighting up our souls. He can funk, he can soul, he can groove, he can swing, he can stomp.</p>
 		<p>He can play beautiful uplifting love music that brings lovers together, or so deep down n dirty his tunes scare his mum.</p>
+		
 		<p><a class="btn btn-default" href="~/mp3/valley-of-the-shadows.mp3" role="button">Sample MP3</a></p>
 		]]>
 	</box>
-	<box name="Baroness Guillem" img="~/images/about/jen-burlesque.jpg">
+	<box name="Baroness Guillem" img="~/images/about/baroness-guillem.jpg">
 		<![CDATA[
 		<p>Baroness Guillem is an experienced performer and choreographer with extensive ballet and tap skills which she transforms into burlesque routines. As an artist Baroness Guillem is in her element performing anything from a classical ballet influenced burlesque routine to a slap stick comedy clown act. The experience of the audience is paramount for this artist and they can expect to be taken on a journey which will leave them enthused and thoroughly entertained.</p>
+
+		<p>In 1996 baroness Guillem won the prestigious Anne Heaton award for artistic interpretation a the John Field memorial seminar.</p>
 		]]>
 	</box>
 	<box name="Alexandra Parker" img="~/images/about/alexandra-parker.jpg">
 		<![CDATA[
 		<p>Alexandra began playing at weddings quite a few years ago now and the feeling was indescribable. The first time she played at a wedding she was 14 years old and absolutely loved it! She recalls playing &#39;Perfect Moment&#39; as the bride stepped out of the wedding car. When she heard the music, in that moment Alexandra saw a tear of the purest happiness imaginable. It was her day and she had helped to make it the most wonderful memory. She felt so amazing to have touched someone that much. From that moment, she knew what she wanted to do for the rest of her life.</p>
+		
 		<p><a class="btn btn-default" href="http://www.femaleviolinist.co.uk/" role="button" target="_blank">Website</a></p>
 		]]>
 	</box>
-	<box name="Jessica Crabtree" img="~/images/about/jess-crabtree.jpg">
+<!-- 	<box name="Jessica Crabtree" img="~/images/about/jess-crabtree.jpg">
 		<![CDATA[
 		<p>Jessica Crabtree is a young highly accomplished acoustic - electric violinist who will definitely bring a twist of various styles from &#39;lavish glamour acoustic&#39; to &#39;funky electric style&#39; to your event. Based in the UK, Jessica is a multi talented musician who also composes and arranges music for TV and for special events both private and commercial.</p>
 		<p><a class="btn btn-default" href="http://www.jessicacrabtree.co.uk/" role="button" target="_blank">Website</a></p>
 		]]>
-	</box>
+	</box> -->
 	<box name="Saxophone Stew" img="~/images/about/saxophone-stew.jpg">
 		<![CDATA[
+		
 		<p>Stewart&#39;s energy, charisma and live improvised sax style has generated mounting interest resulting in performances with multi-talented DJ collectives such as, Bugz in the Attic, MC Tukka Yoot from the 90&#39;s jazz/hip-hop fusion collective US3 and Mercury Music Prize nominee and UK hip hop talent Ty. His radio appearances include BBC Radio 3.</p>
 		<p>No stranger to the club scene Stew has appeared at a number of high profile club nights in London including Pacha, the Southbank and Heat (Brixton). He was sponsored by Quicksilver to perform at the British Snowboard and Freeski Championships in Switzerland and like any true music lover has played at various festivals in Croatia, Greece, and San Francisco to name a few.</p>
+		
 		<p><a class="btn btn-default" href="http://www.bandmix.co.uk/stewartgeorge/" role="button" target="_blank">Website</a></p>
+		
 		]]>
 	</box>
 	<box name="Courtenay Probert" img="~/images/about/cookie.jpg">
 		<![CDATA[
+		
 		<p>Courtenay Probert is a technologist with a passion for Music and Single Malt Whisky. When he&#39;s not hacking code, may find him: playing Tennor Sax for the <a href="http://www.spiritofboogie.com/" target="_new">Spirit of Boogie</a>; playing Double Bass for his local Ceilidh band or playing Guitar, Mouthorgan, Chalumeau, Vibraslap or Squeaky Chicken for <a href="http://www.last.fm/music/Thursday+Night+Music+Club" target="_blank">The Thursday Night Music Club</a>.</p>
+		
 		<p><a class="btn btn-primary" href="http://www.linkedin.com/in/courtenayprobert" role="button" target="_blank">Linkedin</a> <a class="btn btn-default" href="http://about.me/cprobert/" role="button" target="_blank">About Me</a></p>
+
 		]]>
 	</box>
 	<box name="Rachael Howarth" img="~/images/about/rachael-howarth.jpg">
@@ -57,15 +68,21 @@
 	</box>
 	<box name="Sophie Morris" img="~/images/about/sophie-morris.jpg">
 		<![CDATA[
+		
 		<p>Sophie Morris is a highly skilled and experienced performer, with a degree in Dance and Aerial Performance. Sophie is an aerial performer, fluent in the art of Silks, Hoop, Trapeze, Net and Harness work. Sophie has worked with companies such as Upswing Aerial, Wired Aerial Theatre and Video Ink. Sophie is also a classically trained dancer, Stilt Walker, Fire Artist and Sparx Performer. Sophie has her own agency Vertigo Aerial Arts as well as working with other big agencies such as Area51, Evolve and Invasion. Sophie's aerial act is dynamic and dramatic but at the same displaying elegant positions and fluid transitions. Sophie can perform set routines, freestyle or create specific work if requested.</p>
+		
 		<p><a class="btn btn-default" href="http://www.youtube.com/watch?v=-E3IBR2KrLs" role="button" target="_blank">YouTube</a></p>
+
 		]]>
 	</box>
 	<box name="Zuzanna Lumanisha" img="~/images/about/zu.jpg">
 		<![CDATA[
+		
 		<p>It is said that art is reflection of our personality. So I was always fascinated by exotic cultures, different countries, interesting people and new tastes. Being open to different influences and adventures, I create art reflect on the beauty and complexity of the real world. You can see in my designs the impact of international contacts, memories of travels and conversations with many people.</p>
+		
 		<p>If you need an outstanding designs for your: album cover, poster, brochure or invitation you can easily rich me on www.thedictatordesign.com. THE DICTATOR DESIGN is a design studio where are created bespoke designs to suit your business needs such as: logo & branding, bid & corporate design, advertising & print design, web development.</p>
-		<p><a class="btn btn-default" href="uk.linkedin.com/in/thedictatordesign/ " role="button" target="_blank">LinkedIn</a></p>
+		
+		<p><a class="btn btn-default" href="http://uk.linkedin.com/in/thedictatordesign/ " role="button" target="_blank">LinkedIn</a></p>
 		]]>
 	</box>
 	<box name="Arran Kent" img="~/images/about/arran-kent.jpg">
@@ -75,8 +92,11 @@
 	</box>
 	<box name="Jay Dee" img="~/images/about/jaydee.jpg">
 		<![CDATA[
+		
 		<p>Jay has been studying and performing magic for over twenty years, ever since discovering a collection of dusty, forgotten books of secrets hidden away in the corner of the local library. Since then, Jay has specialised in bringing the magical experience into the hands of his audiences, allowing everyone to take part and feel the wonder.</p>
+		
 		<p>A firm believer that magic can gladden even the most jadest of souls, Jay's brand of devious trickery is a journey for the eyes and the mind.</p>
+
 		]]>
 	</box>
 	<box name="Ruth McNulty" img="~/images/about/ruth-mcnulty.jpg">
@@ -105,4 +125,18 @@
 		<p>John first picked up the guitar at 16 spending several hours a day working through his varied record collection. 2 years later he joined his first band performing rock covers and writing original material. Fast forward a few years and his musical career took him around the world several times playing to crowds of up to 35,000 plus. To date, his writing and performing credits span across 8 studio albums covering numerous styles predominantly rooted in rock but also folk, blues and punk.</p>
 		]]>
 	</box>
+
+	<box name="Bernadette Byrne" img="~/images/about/bernadette-byrne.jpg">
+		<![CDATA[
+		<p>Irish harpist Bernadette Byrne (known as Berni) is regarded as one of the UK's leading Irish harpists specialising in lever harp and the playing of music in the oral tradition.</p>
+ 
+		<p>Berni plays for weddings and special occasions.  Her repertoire includes traditional wedding pieces, Irish joyful music, and offers a range of complementary music from modern to traditional.</p>
+		 
+		<p><em>"Berni plays exquisitely and with great style on the Irish harp.  Whatever the event the sound of the Irish harp carries within itself every sweet mood and sensibility"</em> Joe Sheeran</p>
+
+		<p><a class="btn btn-primary" href="http://www.bernibyrne.co.uk" role="button" target="_blank">Website</a> <a class="btn btn-default" href="http://soundcloud.com/berni-byrne" role="button" target="_blank">SoundCloud</a></p>
+		]]>
+	</box>
+
+	
 </boxes>
