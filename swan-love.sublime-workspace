@@ -8,11 +8,19 @@
 	"buffers":
 	[
 		{
-			"file": "_layouts/layout.erb",
+			"file": "_pages/sponsors/main.html",
 			"settings":
 			{
-				"buffer_size": 3395,
-				"line_ending": "CR"
+				"buffer_size": 5895,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "_pages/about/collective.xml",
+			"settings":
+			{
+				"buffer_size": 14143,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -43,6 +51,14 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Cookie/Dropbox/Shares/Swanlove/swan-love.github.io/_pages/valentines-entertainment/main.html",
+		"/C/Users/Cookie/Dropbox/Shares/Swanlove/swan-love.github.io/_pages/valentines-entertainment/intro.erb",
+		"/C/Users/Cookie/Dropbox/Shares/Swanlove/swan-love.github.io/_pages/about/jumbotron.html",
+		"/C/Users/Cookie/Dropbox/Shares/Swanlove/swan-love.github.io/_pages/sponsors/intro.md",
+		"/C/Users/Cookie/Dropbox/Shares/Swanlove/swan-love.github.io/_pages/sponsors/leadin.txt",
+		"/C/Users/Cookie/Dropbox/Shares/Swanlove/swan-love.github.io/_layouts/layout.erb",
+		"/C/Users/Cookie/Dropbox/Shares/Swanlove/swan-love.github.io/_pages/about/collective.xml",
+		"/C/Users/Cookie/Dropbox/Shares/Swanlove/swan-love.github.io/_layouts/boxes.xsl",
 		"/C/Users/Cookie/Dropbox/Shares/Swanlove/swan-love.github.io/_pages/about/main.erb",
 		"/C/Users/Cookie/Dropbox/Shares/Swanlove/swan-love.github.io/_layouts/home-layout.erb",
 		"/C/Users/Cookie/Dropbox/Shares/Swanlove/swan-love.github.io/_pages/index/featurette1.html",
@@ -52,20 +68,15 @@
 		"/C/Users/Cookie/Dropbox/Shares/Swanlove/swan-love.github.io/_pages/index/twitter.erb",
 		"/C/Users/Cookie/Dropbox/Shares/Swanlove/swan-love.github.io/_pages/index/social.erb",
 		"/C/Users/Cookie/Dropbox/Shares/Swanlove/swan-love.github.io/_pages/about/main.html",
-		"/C/Users/Cookie/Dropbox/Shares/Swanlove/swan-love.github.io/_pages/about/jumbotron.html",
-		"/C/Users/Cookie/Dropbox/Shares/Swanlove/swan-love.github.io/_pages/about/collective.xml",
 		"/C/Users/Cookie/Dropbox/Shares/Swanlove/swan-love.github.io/_layouts/nav.erb",
 		"/C/Users/Cookie/Dropbox/Shares/Swanlove/swan-love.github.io/valentines-entertainment.html",
 		"/C/Users/Cookie/Dropbox/Shares/Swanlove/swan-love.github.io/_layouts/contact-modal.erb",
 		"/C/Users/Cookie/Dropbox/Shares/Swanlove/swan-love.github.io/donate.html",
 		"/C/Users/Cookie/Dropbox/Shares/Swanlove/swan-love.github.io/_pages/index/main.html",
-		"/C/Users/Cookie/Dropbox/Shares/Swanlove/swan-love.github.io/_layouts/boxes.xsl",
 		"/C/Users/Cookie/Dropbox/Shares/Swanlove/swan-love.github.io/_pages/about/staff.xml",
 		"/C/Users/Cookie/Dropbox/Shares/Swanlove/swan-love.github.io/_pages/about/intro.md",
 		"/C/Users/Cookie/Dropbox/Shares/Swanlove/swan-love.github.io/_pages/charity/intro.html",
 		"/C/Users/Cookie/Dropbox/Shares/Swanlove/swan-love.github.io/_pages/charity/main.html",
-		"/C/Users/Cookie/Dropbox/Shares/Swanlove/swan-love.github.io/_pages/valentines-entertainment/main.html",
-		"/C/Users/Cookie/Dropbox/Shares/Swanlove/swan-love.github.io/_pages/valentines-entertainment/intro.erb",
 		"/C/Users/Cookie/Documents/GitHub/Static-CMS/lib/scms/scms-utils.rb",
 		"/C/Users/Cookie/Documents/GitHub/Static-CMS/lib/scms.rb",
 		"/C/Users/Cookie/Documents/GitHub/Static-CMS/lib/scms/scms-parser.rb",
@@ -143,32 +154,59 @@
 			[
 				{
 					"buffer": 0,
-					"file": "_layouts/layout.erb",
+					"file": "_pages/sponsors/main.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3395,
+						"buffer_size": 5895,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								918,
-								918
+								5895,
+								5895
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 285.0,
+						"translation.y": 787.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "_pages/about/collective.xml",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 14143,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6361,
+								6131
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1026.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -230,7 +268,7 @@
 		[
 			[
 				"",
-				"C:\\Users\\Cookie\\Documents\\GitHub\\Static-CMS\\scms.sublime-project"
+				"C:\\Code\\qsonic.qsonic\\qsonic.sublime-project"
 			]
 		],
 		"width": 380.0

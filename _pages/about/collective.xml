@@ -1,6 +1,13 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="_layouts/boxes.xsl"?>
 <boxes>
+	<box name="Izzy" img="~/images/about/izzy.jpg">
+		<![CDATA[
+		<p>Izzy is a Leeds based dancer, writer, maker and poet. Currently in the final year of her degree at The Northern School of Contemporary Dance, she enjoys making magical worlds out of movement and words! Her most recent creation 'how to build a boat' has been performed at various platforms in the North.</p>
+		 
+		<p>Izzy also writes and reviews for various websites, and performs poetry at open mics and festivals, both alone and alongside fellow dancing-poet Marianne Tuckman. Eccentric and imaginative; this unlikely duo are now working on a unique cross-arts collaboration with acapella vocal duo Devil Makes Three.</p>
+		]]>
+	</box>
 	<box name="Ruby Paul" img="~/images/about/ruby-paul.jpg">
 		<![CDATA[
 		<p><a href="http://www.rubypaul.com/" target="_blank">Ruby Paul</a> loved to sing from an early age - standing in a corner to perform to anyone who would listen. However, her childhood dream was to play the harp.</p>
