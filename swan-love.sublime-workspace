@@ -8,19 +8,11 @@
 	"buffers":
 	[
 		{
-			"file": "_pages/sponsors/main.html",
+			"file": "_config.yml",
 			"settings":
 			{
-				"buffer_size": 5895,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "_pages/about/collective.xml",
-			"settings":
-			{
-				"buffer_size": 14143,
-				"line_ending": "Unix"
+				"buffer_size": 30,
+				"line_ending": "CR"
 			}
 		}
 	],
@@ -51,13 +43,22 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Cookie/Dropbox/Shares/Swanlove/swan-love.github.io/_pages/sponsors/_config.yml",
+		"/C/Users/Cookie/Dropbox/Shares/Swanlove/swan-love.github.io/_pages/valentines-entertainment/_config.yml",
+		"/C/Users/Cookie/Dropbox/Shares/Swanlove/swan-love.github.io/_pages/sponsors/main.html",
+		"/C/Users/Cookie/Dropbox/Shares/Swanlove/swan-love.github.io/_pages/about/collective.xml",
+		"/C/Users/Cookie/Dropbox/Shares/Swanlove/swan-love.github.io/_pages/index/_config.yml",
+		"/C/Users/Cookie/Dropbox/Shares/Swanlove/swan-love.github.io/_pages/about/_config.yml",
+		"/C/Users/Cookie/Dropbox/Shares/Swanlove/swan-love.github.io/_pages/charity/_config.yml",
+		"/C/Users/Cookie/Dropbox/Shares/Swanlove/swan-love.github.io/_pages/corporate/_config.yml",
+		"/C/Users/Cookie/Dropbox/Shares/Swanlove/swan-love.github.io/_pages/donate/_config.yml",
+		"/C/Users/Cookie/Dropbox/Shares/Swanlove/swan-love.github.io/_pages/gallery/_config.yml",
 		"/C/Users/Cookie/Dropbox/Shares/Swanlove/swan-love.github.io/_pages/valentines-entertainment/main.html",
 		"/C/Users/Cookie/Dropbox/Shares/Swanlove/swan-love.github.io/_pages/valentines-entertainment/intro.erb",
 		"/C/Users/Cookie/Dropbox/Shares/Swanlove/swan-love.github.io/_pages/about/jumbotron.html",
 		"/C/Users/Cookie/Dropbox/Shares/Swanlove/swan-love.github.io/_pages/sponsors/intro.md",
 		"/C/Users/Cookie/Dropbox/Shares/Swanlove/swan-love.github.io/_pages/sponsors/leadin.txt",
 		"/C/Users/Cookie/Dropbox/Shares/Swanlove/swan-love.github.io/_layouts/layout.erb",
-		"/C/Users/Cookie/Dropbox/Shares/Swanlove/swan-love.github.io/_pages/about/collective.xml",
 		"/C/Users/Cookie/Dropbox/Shares/Swanlove/swan-love.github.io/_layouts/boxes.xsl",
 		"/C/Users/Cookie/Dropbox/Shares/Swanlove/swan-love.github.io/_pages/about/main.erb",
 		"/C/Users/Cookie/Dropbox/Shares/Swanlove/swan-love.github.io/_layouts/home-layout.erb",
@@ -154,59 +155,30 @@
 			[
 				{
 					"buffer": 0,
-					"file": "_pages/sponsors/main.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5895,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								5895,
-								5895
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 787.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "_pages/about/collective.xml",
+					"file": "_config.yml",
 					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 14143,
+						"buffer_size": 30,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6361,
-								6131
+								30,
+								30
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/XML/XML.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/YAML/YAML.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1026.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -268,7 +240,7 @@
 		[
 			[
 				"",
-				"C:\\Code\\qsonic.qsonic\\qsonic.sublime-project"
+				"C:\\Users\\Cookie\\Dropbox\\Shares\\Gaynor Probert\\gaynor.probert.me.uk\\gaynor.sublime-project"
 			]
 		],
 		"width": 380.0
