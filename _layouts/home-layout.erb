@@ -82,14 +82,20 @@
     <script src="~/js/jquery.cookie.js"></script>
     <script>
       $(function(){
-        var firstRun = $.cookie('first_visit');
+        try {
+          var firstRun = $.cookie('first_visit');
 
-        if(firstRun == undefined){
-          $.cookie('first_visit', false, { expires: 31, path: '/' });
+          if(firstRun == undefined){
+            $.cookie('first_visit', false, { expires: 31, path: '/' });
 
-          var v = document.getElementsByTagName("audio")[0];
-          if(v != null)
-            v.play();
+            var v = document.getElementsByTagName("audio")[0];
+            if(v != null){
+              v.play();
+            }
+          }
+        }
+        catch(err) {
+          console.log(err);
         }
 
       });

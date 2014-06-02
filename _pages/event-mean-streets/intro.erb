@@ -1,0 +1,40 @@
+<p>Mean Streets</p>
+
+
+<table style="border:0px;">
+	<tbody><tr>
+		<td style="width:110px;text-align:center;"><strong>Days</strong></td>
+		<td style="width:110px;text-align:center;"><strong>Hours</strong></td>
+		<td style="width:110px;text-align:center;"><strong>Minutes</strong></td>
+		<td style="width:110px;text-align:center;"><strong>Seconds</strong></td>
+	</tr>
+	<tr>
+		<td colspan="4"><span id="count-down"></span></td>
+	</tr>
+</tbody></table>
+
+<link rel="stylesheet" type="text/css" href="/css/jquery.flipcountdown.css" />
+<script type="text/javascript" src="~/js/jquery.flipcountdown.js"></script>
+
+<script>
+    $(function(){
+
+     var countDown = Math.round((new Date('06/13/2014 19:00:00')).getTime()/1000);
+     $('#count-down').flipcountdown({ 
+        size:'lg',
+        tick:function(){
+            var nol = function(h){
+                return h>9?h:'0'+h;
+            }
+            var range   =   countDown-Math.round((new Date()).getTime()/1000),
+                secday  =   86400, sechour = 3600,
+                days    =   parseInt(range/secday),
+                hours   =   parseInt((range%secday)/sechour),
+                min =   parseInt(((range%secday)%sechour)/60),
+                sec =   ((range%secday)%sechour)%60;
+            return nol(days)+' '+nol(hours)+' '+nol(min)+' '+nol(sec);
+        }
+     });
+
+    })
+</script>

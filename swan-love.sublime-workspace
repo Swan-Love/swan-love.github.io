@@ -8,11 +8,11 @@
 	"buffers":
 	[
 		{
-			"file": "_config.yml",
+			"file": "about.html",
 			"settings":
 			{
-				"buffer_size": 30,
-				"line_ending": "CR"
+				"buffer_size": 24581,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -43,9 +43,25 @@
 	},
 	"file_history":
 	[
+		"/C/Users/cprobert/Dropbox/Shares/Swanlove/swan-love.github.io/_pages/index/event-mean-streets.html",
+		"/C/Users/cprobert/Dropbox/Shares/Swanlove/swan-love.github.io/_pages/index/sponsors.html",
+		"/C/Users/cprobert/Dropbox/Shares/Swanlove/swan-love.github.io/_pages/index/main.erb",
+		"/C/Users/cprobert/Dropbox/Shares/Swanlove/swan-love.github.io/_pages/event-mean-streets/main.html",
+		"/C/Users/cprobert/Dropbox/Shares/Swanlove/swan-love.github.io/_layouts/boxes.xsl",
+		"/C/Users/cprobert/Dropbox/Shares/Swanlove/swan-love.github.io/_pages/about/collective.xml",
+		"/C/Users/cprobert/Dropbox/Shares/Swanlove/swan-love.github.io/_layouts/nav.erb",
+		"/C/Users/cprobert/Dropbox/Shares/Swanlove/swan-love.github.io/_pages/event-mean-streets/leadin.txt",
+		"/C/Users/cprobert/Dropbox/Shares/Swanlove/swan-love.github.io/_pages/event-mean-streets/_config.yml",
+		"/C/Users/cprobert/Dropbox/Shares/Swanlove/swan-love.github.io/_pages/event-mean-streets/intro.erb",
+		"/C/Users/cprobert/Dropbox/Shares/Swanlove/swan-love.github.io/_layouts/home-layout.erb",
+		"/C/Users/cprobert/Dropbox/Shares/Swanlove/swan-love.github.io/index.html",
+		"/C/Users/cprobert/Dropbox/Shares/Swanlove/swan-love.github.io/_layouts/layout.erb",
+		"/C/Users/cprobert/Dropbox/Shares/Swanlove/swan-love.github.io/_pages/index/featurette2.html",
+		"/C/Users/cprobert/Dropbox/Shares/Swanlove/swan-love.github.io/_pages/index/featurette1.html",
+		"/C/Users/cprobert/Dropbox/Shares/Swanlove/swan-love.github.io/_pages/index/social.erb",
+		"/C/Users/Cookie/Dropbox/Shares/Swanlove/swan-love.github.io/_pages/sponsors/main.html",
 		"/C/Users/Cookie/Dropbox/Shares/Swanlove/swan-love.github.io/_pages/sponsors/_config.yml",
 		"/C/Users/Cookie/Dropbox/Shares/Swanlove/swan-love.github.io/_pages/valentines-entertainment/_config.yml",
-		"/C/Users/Cookie/Dropbox/Shares/Swanlove/swan-love.github.io/_pages/sponsors/main.html",
 		"/C/Users/Cookie/Dropbox/Shares/Swanlove/swan-love.github.io/_pages/about/collective.xml",
 		"/C/Users/Cookie/Dropbox/Shares/Swanlove/swan-love.github.io/_pages/index/_config.yml",
 		"/C/Users/Cookie/Dropbox/Shares/Swanlove/swan-love.github.io/_pages/about/_config.yml",
@@ -155,24 +171,24 @@
 			[
 				{
 					"buffer": 0,
-					"file": "_config.yml",
-					"semi_transient": true,
+					"file": "about.html",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 30,
+						"buffer_size": 24581,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								30,
-								30
+								354,
+								354
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/YAML/YAML.tmLanguage"
+							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -240,7 +256,7 @@
 		[
 			[
 				"",
-				"C:\\Users\\Cookie\\Dropbox\\Shares\\Gaynor Probert\\gaynor.probert.me.uk\\gaynor.sublime-project"
+				"C:\\Users\\cprobert\\Dropbox\\Code\\qsonic.qsonic\\qsonic.sublime-project"
 			]
 		],
 		"width": 380.0

@@ -1,6 +1,13 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="_layouts/boxes.xsl"?>
 <boxes>
+
+	<box name="Scarlet Butterfly" img="~/images/about/scarlet-butterfly.jpg">
+		<![CDATA[
+		<p>Scarlet Butterfly is an experienced aerial dance performer based in West Yorkshire and specialising in acrobatic, cirque style pole dance. She is passionate about dance and believes attention to detail is everything in a performance. She is influenced by butterflies, and all things mythical and magical. To this end she creates visually stunning pole art that incorporates dazzling fantasy, faery, gothic, steampunk and butterfly inspired costumes, plus the use of fan veils and other interesting things! Her acts are exciting, unpredictable and offer high entertainment value. More recently she has begun combining her pole art with burlesque and in early 2014 was nominated for the Hebden Bridge Burlesque Festival newcomer’s competition.</p>
+		]]>
+	</box>
+
 	<box name="Izzy" img="~/images/about/izzy.jpg">
 		<![CDATA[
 		<p>Izzy is a Leeds based dancer, writer, maker and poet. Currently in the final year of her degree at The Northern School of Contemporary Dance, she enjoys making magical worlds out of movement and words! Her most recent creation 'how to build a boat' has been performed at various platforms in the North.</p>
@@ -27,13 +34,13 @@
 		]]>
 	</box>
 
-	<box name="Baroness Guillem" img="~/images/about/baroness-guillem.jpg">
+<!-- 	<box name="Baroness Guillem" img="~/images/about/baroness-guillem.jpg">
 		<![CDATA[
 		<p>Baroness Guillem is an experienced performer and choreographer with extensive ballet and tap skills which she transforms into burlesque routines. As an artist Baroness Guillem is in her element performing anything from a classical ballet influenced burlesque routine to a slap stick comedy clown act. The experience of the audience is paramount for this artist and they can expect to be taken on a journey which will leave them enthused and thoroughly entertained.</p>
 
 		<p>In 1996 baroness Guillem won the prestigious Anne Heaton award for artistic interpretation a the John Field memorial seminar.</p>
 		]]>
-	</box>
+	</box> -->
 
 	<box name="Alexandra Parker" img="~/images/about/alexandra-parker.jpg">
 		<![CDATA[
@@ -144,11 +151,11 @@
 		]]>
 	</box>
 
-	<box name="John Slater" img="~/images/about/john-slater.jpg">
+<!-- 	<box name="John Slater" img="~/images/about/john-slater.jpg">
 		<![CDATA[
 		<p>John first picked up the guitar at 16 spending several hours a day working through his varied record collection. 2 years later he joined his first band performing rock covers and writing original material. Fast forward a few years and his musical career took him around the world several times playing to crowds of up to 35,000 plus. To date, his writing and performing credits span across 8 studio albums covering numerous styles predominantly rooted in rock but also folk, blues and punk.</p>
 		]]>
-	</box>
+	</box> -->
 
 	<box name="Bernadette Byrne" img="~/images/about/bernadette-byrne.jpg">
 		<![CDATA[
