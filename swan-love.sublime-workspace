@@ -41,6 +41,10 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/C/Users/cprobert/Dropbox/Shares/Swanlove/swan-love.github.io"
+	],
 	"file_history":
 	[
 		"/C/Users/cprobert/Dropbox/Shares/Swanlove/swan-love.github.io/_pages/index/event-mean-streets.html",
@@ -182,8 +186,8 @@
 						"selection":
 						[
 							[
-								354,
-								354
+								600,
+								600
 							]
 						],
 						"settings":
@@ -256,7 +260,7 @@
 		[
 			[
 				"",
-				"C:\\Users\\cprobert\\Dropbox\\Code\\qsonic.qsonic\\qsonic.sublime-project"
+				"C:\\Users\\cprobert\\Dropbox\\Shares\\Gaynor Probert\\gaynor.probert.me.uk\\gaynor.sublime-project"
 			]
 		],
 		"width": 380.0
@@ -269,6 +273,7 @@
 		],
 		"width": 0.0
 	},
+	"selected_group": 0,
 	"settings":
 	{
 	},
