@@ -2,6 +2,21 @@
 <?xml-stylesheet type="text/xsl" href="_layouts/boxes.xsl"?>
 <boxes>
 
+	<box name="Lucy Hartland-Mann.png" img="~/images/about/lucy-hartland-mann.png">
+		<![CDATA[
+		<p>I trained with a scholarship at the The Liverpool institute for performing arts specialising in dance. I now teach dance, circus and street arts in a variety of educational setting and extra curriculum setting.</p>
+
+		<p>Whist always doing dance I have been brought up around circus and street arts. I have developed my own acts and skills to be an all round multi skilled performer. From hooping to stilts, fire to led, angle grinding to balloon popping shows, the list goes on.</p>
+
+		<p>I pride what I do and have carved a pathway in which I will lead my career within the arts and entertainment industry as a teacher, performer and agent.</p>
+
+		<p>
+			<a class="btn btn-primary" href="https://www.facebook.com/Lucy-Hartland-Mann-Performer-280204422179987/" role="button" target="_blank">Facebook</a>
+			<a class="btn btn-danger" href="https://youtu.be/D0XgWayBFVo?list=PL3k79eR1bpKXpXRC_TdwXUk2H7d0kK0jm" role="button" target="_blank">YouTube</a>
+		</p>
+		]]>
+	</box>
+
 	<box name="Scarlet Butterfly" img="~/images/about/scarlet-butterfly.jpg">
 		<![CDATA[
 		<p>Scarlet Butterfly is an experienced aerial dance performer based in West Yorkshire and specialising in acrobatic, cirque style pole dance. She is passionate about dance and believes attention to detail is everything in a performance. She is influenced by butterflies, and all things mythical and magical. To this end she creates visually stunning pole art that incorporates dazzling fantasy, faery, gothic, steampunk and butterfly inspired costumes, plus the use of fan veils and other interesting things! Her acts are exciting, unpredictable and offer high entertainment value. More recently she has begun combining her pole art with burlesque and in early 2014 was nominated for the Hebden Bridge Burlesque Festival newcomer’s competition.</p>

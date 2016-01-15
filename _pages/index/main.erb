@@ -12,12 +12,20 @@
 
 <hr class="featurette-divider" />
 <div class="row featurette">
-	<%= Scms.renderView("_pages/index/event-mean-streets.html", page) %>
+    <div class="col-md-5">
+        <a href="~/charity.html">
+            <img alt="Hand in Hand for Syria" class="featurette-image img-responsive img-thumbnail img-rounded" src="~/images/home/love-charity.png" />
+        </a>
+    </div>
+    <div class="col-md-7">
+        <h2 class="featurette-heading" style="margin-top: 0px;">Swan Love <span class="text-muted">helps the charities in Leeds</span></h2>
+        <p class="lead">Swan Love aims to organise two spectacular musical events every year. We work seamlessly together with local talent such as artists, DJs, musicians, dancers, promoters, venues, technology companies and voluntary workers. Our goal is to help support, raise awareness and fund raise for small local charities across Leeds who are in need.</p>
+    </div>
 </div>
 
 <hr class="featurette-divider" />
 <div class="row featurette">
-	<%= Scms.renderView("_pages/index/twitter.erb", page) %>
+	<%= Scms.renderView("_pages/index/facebook.erb", page) %>
 </div>
 
 <%= Scms.renderView("_pages/index/social.erb", page) %>
