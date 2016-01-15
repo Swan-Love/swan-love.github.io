@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="_layouts/boxes.xsl"?>
 <boxes>
 
-	<box name="Lucy Hartland-Mann.png" img="~/images/about/lucy-hartland-mann.png">
+	<box name="Lucy Hartland-Mann" img="~/images/about/lucy-hartland-mann.png">
 		<![CDATA[
 		<p>I trained with a scholarship at the The Liverpool institute for performing arts specialising in dance. I now teach dance, circus and street arts in a variety of educational setting and extra curriculum setting.</p>
 
@@ -13,6 +13,17 @@
 		<p>
 			<a class="btn btn-primary" href="https://www.facebook.com/Lucy-Hartland-Mann-Performer-280204422179987/" role="button" target="_blank">Facebook</a>
 			<a class="btn btn-danger" href="https://youtu.be/D0XgWayBFVo?list=PL3k79eR1bpKXpXRC_TdwXUk2H7d0kK0jm" role="button" target="_blank">YouTube</a>
+		</p>
+		]]>
+	</box>
+
+	<box name="Melissa Greenhough" img="~/images/about/melissa-reenhough.jpg">
+		<![CDATA[
+		<p>I am a professional dancer/aerialist and have performed all over the world and have recently settled in Leeds. I have a hoop and a silk routine please feel free to check out my website and video footage.</p>
+
+		<p>
+			<a class="btn btn-default" href="http://melissagreenhough.wix.com/dancer-aerialist" role="button" target="_blank">Website</a>
+			<a class="btn btn-danger" href="https://www.youtube.com/watch?v=QIo6BR3Ruak " role="button" target="_blank">YouTube</a>
 		</p>
 		]]>
 	</box>
