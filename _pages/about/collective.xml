@@ -28,28 +28,28 @@
 		]]>
 	</box>
 
-	<box name="Scarlet Butterfly" img="~/images/about/scarlet-butterfly.jpg">
+<!-- 	<box name="Scarlet Butterfly" img="~/images/about/scarlet-butterfly.jpg">
 		<![CDATA[
 		<p>Scarlet Butterfly is an experienced aerial dance performer based in West Yorkshire and specialising in acrobatic, cirque style pole dance. She is passionate about dance and believes attention to detail is everything in a performance. She is influenced by butterflies, and all things mythical and magical. To this end she creates visually stunning pole art that incorporates dazzling fantasy, faery, gothic, steampunk and butterfly inspired costumes, plus the use of fan veils and other interesting things! Her acts are exciting, unpredictable and offer high entertainment value. More recently she has begun combining her pole art with burlesque and in early 2014 was nominated for the Hebden Bridge Burlesque Festival newcomer’s competition.</p>
 		]]>
-	</box>
+	</box> -->
 
-	<box name="Izzy" img="~/images/about/izzy.jpg">
+<!-- 	<box name="Izzy" img="~/images/about/izzy.jpg">
 		<![CDATA[
 		<p>Izzy is a Leeds based dancer, writer, maker and poet. Currently in the final year of her degree at The Northern School of Contemporary Dance, she enjoys making magical worlds out of movement and words! Her most recent creation 'how to build a boat' has been performed at various platforms in the North.</p>
 		 
 		<p>Izzy also writes and reviews for various websites, and performs poetry at open mics and festivals, both alone and alongside fellow dancing-poet Marianne Tuckman. Eccentric and imaginative; this unlikely duo are now working on a unique cross-arts collaboration with acapella vocal duo Devil Makes Three.</p>
 		]]>
-	</box>
+	</box> -->
 	
-	<box name="Ruby Paul" img="~/images/about/ruby-paul.jpg">
+<!-- 	<box name="Ruby Paul" img="~/images/about/ruby-paul.jpg">
 		<![CDATA[
 		<p><a href="http://www.rubypaul.com/" target="_blank">Ruby Paul</a> loved to sing from an early age - standing in a corner to perform to anyone who would listen. However, her childhood dream was to play the harp.</p>
 		<p>After selling her viola and graduating with a Music Degree from York University, Ruby invested in a 31 string harp and after a stint of busking, she played folk clubs and festivals. Ruby now has two new harps: a 34 string Clarsach, and a large glossy Black Camac Pedal Harp, her pride and joy.</p>
 		
 		<p>Ruby has produced three albums with her own material and performed at International Harp Festivals, at The Edinburgh Festival and BBC Look North. With a wide repertoire encompassing Classical, Pop and Folk, Ruby&#39;s passion is to mould her own unique arrangements of songs old and new and to create new music.</p>
 		]]>
-	</box>
+	</box> -->
 
 	<box name="DJ Timbo" img="~/images/about/tim.jpg">
 		<![CDATA[
@@ -126,7 +126,7 @@
 		]]>
 	</box>
 
-	<box name="Zuzanna Lumanisha" img="~/images/about/zu.jpg">
+<!-- 	<box name="Zuzanna Lumanisha" img="~/images/about/zu.jpg">
 		<![CDATA[
 		
 		<p>It is said that art is reflection of our personality. So I was always fascinated by exotic cultures, different countries, interesting people and new tastes. Being open to different influences and adventures, I create art reflect on the beauty and complexity of the real world. You can see in my designs the impact of international contacts, memories of travels and conversations with many people.</p>
@@ -135,13 +135,13 @@
 		
 		<p><a class="btn btn-default" href="http://uk.linkedin.com/in/thedictatordesign/ " role="button" target="_blank">LinkedIn</a></p>
 		]]>
-	</box>
+	</box> -->
 
-	<box name="Arran Kent" img="~/images/about/arran-kent.jpg">
+<!-- 	<box name="Arran Kent" img="~/images/about/arran-kent.jpg">
 		<![CDATA[
 		<p>Arran is a young up and coming saxophonist based in Leeds. He has been playing in bars & clubs across the UK for the last five years and has developed an excellent reputation. His jazz funk style enables him to play twisted lines and melodies making the most of any house track to date!</p>
 		]]>
-	</box>
+	</box> -->
 
 	<box name="Jay George" img="~/images/about/jaydee.jpg">
 		<![CDATA[
@@ -165,11 +165,11 @@
 		]]>
 	</box>
 
-	<box name="DJ Cat" img="~/images/about/dj-cat.jpg">
+<!-- 	<box name="DJ Cat" img="~/images/about/dj-cat.jpg">
 		<![CDATA[
 		<p>Cat is an up and coming DJ based in Leeds. Her open ear for music means she has a diverse taste and loves to surprise her audience with new music and unexpected drops. Cat has been playing across Leeds for the last year and is fast making a name for herself. Expect tasty house vibes with heavy basslines, sweet piano sounds and soulful grooves.</p>
 		]]>
-	</box>
+	</box> -->
 
 	<box name="MisSentice" img="~/images/about/missentice.jpg">
 		<![CDATA[
@@ -183,7 +183,7 @@
 		]]>
 	</box> -->
 
-	<box name="Bernadette Byrne" img="~/images/about/bernadette-byrne.jpg">
+<!-- 	<box name="Bernadette Byrne" img="~/images/about/bernadette-byrne.jpg">
 		<![CDATA[
 		<p>Irish harpist Bernadette Byrne (known as Berni) is regarded as one of the UK's leading Irish harpists specialising in lever harp and the playing of music in the oral tradition.</p>
  
@@ -193,7 +193,7 @@
 
 		<p><a class="btn btn-primary" href="http://www.bernibyrne.co.uk" role="button" target="_blank">Website</a> <a class="btn btn-default" href="http://soundcloud.com/berni-byrne" role="button" target="_blank">SoundCloud</a></p>
 		]]>
-	</box>
+	</box> -->
 
 	<box name="Suzy Valentine" img="~/images/about/suzy-valentine.jpg">
 		<![CDATA[
