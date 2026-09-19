@@ -1,3 +1,11 @@
+node_modules/
+
+# Preview output from `npm run dev`; the published build is ./docs.
+.kiss-dev/
+# Left behind only if a build is killed mid-flight; the next run clears them.
+docs.kiss-staging-*/
+docs.kiss-old-*/
+
 *.gem
 *.sublime-project
 *.sublime-workspace
@@ -8,7 +16,6 @@
 
 # Windows image file caches
 Thumbs.db
-
 
 # Mac crap
 .DS_Store

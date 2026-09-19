@@ -1,0 +1,12 @@
+{{!-- One sponsor, rendered from a record in src/models/sponsors.json. Under
+      SCMS all ten were hand-written copies of this block in
+      _pages/sponsors/main.html, which is why two of them had drifted (a
+      missing <hr>, a stray unclosed <div> at the end of the file). --}}
+<div>
+  <img class="img img-rounded img-thumbnail pull-right" src="/{{asset img}}" style="{{imgStyle}}">
+  <h2>{{name}}</h2>
+  {{#if tagline}}<p><em>{{tagline}}</em></p>{{/if}}
+  {{#each body}}<p>{{{this}}}</p>
+  {{/each}}
+  <p>{{#each links}}<a class="btn {{variant}}" href="{{url href}}" role="button" target="_blank">{{label}}</a> {{/each}}</p>
+</div>

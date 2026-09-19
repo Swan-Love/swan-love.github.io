@@ -1,0 +1,16 @@
+{{!-- Converted from _layouts/nav.erb. The links come from config.nav in
+      router.js so the two layouts and the sitemap agree on one list, and
+      internal entries are resolved by page id through {{link}} rather than
+      hardcoded — a renamed page now fails the build instead of shipping a
+      dead link. --}}
+<ul class="nav navbar-nav">
+  {{#each config.nav}}
+  {{#if this.external}}
+  <li><a href="{{url this.href}}" target="_blank">{{this.label}}</a></li>
+  {{else}}
+  {{#isActive .. href=(link this.page) active="active"}}
+  <li class="{{active}}"><a href="{{link this.page}}">{{this.label}}</a></li>
+  {{/isActive}}
+  {{/if}}
+  {{/each}}
+</ul>

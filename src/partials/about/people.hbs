@@ -1,0 +1,18 @@
+{{!-- The markup boxes.xsl used to emit, once. Called as
+      {{> "about/people" rows=model.steeringRows}} — the rows are chunked in
+      src/controllers/about.js. --}}
+{{#each rows}}
+<div class="row">
+  {{#each this}}
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img alt="{{name}}" style="width: 300px; height: 200px;" src="{{img}}">
+      <div class="caption">
+        <h3>{{name}}</h3>
+        {{{bio}}}
+      </div>
+    </div>
+  </div>
+  {{/each}}
+</div>
+{{/each}}

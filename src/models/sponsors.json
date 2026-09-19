@@ -1,0 +1,216 @@
+{
+  "sponsors": [
+    {
+      "name": "The Royal George",
+      "img": "images/sponsors/royalgeorgethornbury.png",
+      "imgStyle": "margin: 0 0 10px 10px;",
+      "tagline": "The Royal George is a gem of a pub right in the heart of Thornbury",
+      "body": [
+        "We are the perfect place for a relaxing drink, a quick lunch or even a private party or meeting in one of our two fantastic function rooms.  We have free Wi-Fi too so you can keep in touch."
+      ],
+      "links": [
+        {
+          "variant": "btn-primary",
+          "href": "http://www.royalgeorgethornbury.co.uk",
+          "label": "Website"
+        },
+        {
+          "variant": "btn-default",
+          "href": "https://twitter.com/Royalgeorgebs35",
+          "label": "Twitter"
+        }
+      ]
+    },
+    {
+      "name": "My Green Squares",
+      "img": "images/sponsors/green-sqaures.png",
+      "imgStyle": "margin: 0 0 10px 10px;",
+      "tagline": null,
+      "body": [
+        "Green squares protect rainforests, and rainforests protect our world. By collecting green squares when you shop, you can lead a more balanced lifestyle without changing how you live."
+      ],
+      "links": [
+        {
+          "variant": "btn-primary",
+          "href": "http://mygreensquares.com/",
+          "label": "Website"
+        },
+        {
+          "variant": "btn-default",
+          "href": "https://twitter.com/MyGreenSqaures",
+          "label": "Twitter"
+        }
+      ]
+    },
+    {
+      "name": "Richer Sounds",
+      "img": "images/sponsors/richersounds.png",
+      "imgStyle": "margin: 0 0 10px 10px;",
+      "tagline": null,
+      "body": [
+        "Richer Sounds' core philosophy can be summed up by the motto &quot;Biggest Brands, Best Prices, Expert Advice&quot;.",
+        "Sales staff are chosen on the criteria of enthusiasm and friendliness, rather than good looks or skill in hard sales techniques. We like to think that our colleagues are some of the most experienced in the industry, so please pay us a visit - have a coffee, a demonstration and allow us to offer as much advice as you need.",
+        "In 2013, Which? bestowed their coveted 'Recommended provider' status on us for our products and services."
+      ],
+      "links": [
+        {
+          "variant": "btn-primary",
+          "href": "http://www.richersounds.com",
+          "label": "Website"
+        },
+        {
+          "variant": "btn-default",
+          "href": "https://twitter.com/RicherSounds",
+          "label": "Twitter"
+        }
+      ]
+    },
+    {
+      "name": "Bolongaro Trevor",
+      "img": "images/sponsors/bolongaro.jpg",
+      "imgStyle": "margin: 0 0 10px 10px;",
+      "tagline": null,
+      "body": [
+        "Bolongaro Trevor is the latest brainchild of British designers Kait Bolongaro & Stuart Trevor, founders and former designers behind the retail group AllSaints. Launched back in 2007, the brand is now firmly established with a growing following from the general public and celebrities a like. The brand now has 8 stores throughout the UK. The Leeds store, situated on Thornton's Arcade, off Briggate, is their only store in the North, The Brand has a clear focus on Victorian Military mixed with a hard, grungy, biker edge.\nThis run is showing pieces from their most recent Spring/Summer '14 Collection.."
+      ],
+      "links": [
+        {
+          "variant": "btn-primary",
+          "href": "http://www.bolongarotrevor.com/",
+          "label": "Website"
+        },
+        {
+          "variant": "btn-default",
+          "href": "https://twitter.com/bolongarotrevor",
+          "label": "Twitter"
+        }
+      ]
+    },
+    {
+      "name": "Sukhothia",
+      "img": "images/sponsors/sukhothia.png",
+      "imgStyle": "margin: 0 0 10px 10px;",
+      "tagline": null,
+      "body": [
+        "Sukhothai is the home of authentic Thai cuisine in Yorkshire, with four restaurants in total &ndash; three in Leeds at Chapel Allerton, Headingley and its newest restaurant on South Parade in Leeds City Centre, plus its Harrogate restaurant on Cheltenham Parade. Since 2002, Head Chef &amp; Owner, Ban Kaewkraikhot, has won a passionate following with her unique mix of innovative Thai food and friendly service. Her efforts have since been rewarded with rave reviews, numerous awards and 7 consecutive appearances in The Good Food Guide since 2008."
+      ],
+      "links": [
+        {
+          "variant": "btn-primary",
+          "href": "http://www.sukhothai.co.uk/",
+          "label": "Website"
+        },
+        {
+          "variant": "btn-default",
+          "href": "https://twitter.com/sukhothai_",
+          "label": "Twitter"
+        }
+      ]
+    },
+    {
+      "name": "YUM YUM Deli",
+      "img": "images/sponsors/yumyum.png",
+      "imgStyle": "margin: 0 0 10px 10px;",
+      "tagline": null,
+      "body": [
+        "Yum Yum is a lively and welcoming coffee shop, deli and store. Since 2005, it has been working away in a small corner of Brewery Wharf, to provide its favourite people, its customers, with good quality, fresh, tasty and value for money food.",
+        "Winner of the Yorkshire Evening Post 'Oliver' Best Lunch Award 2013, Yum Yum is the ideal place for lunch whatever the weather. There is plenty of room inside and out so you can sit in the sun and people watch, keep warm and dry if the weather is bleak, or if you are a busy professional in a rush simply take your lunch back to the office."
+      ],
+      "links": [
+        {
+          "variant": "btn-primary",
+          "href": "http://www.yumyumbrewerywharf.co.uk/",
+          "label": "Website"
+        },
+        {
+          "variant": "btn-default",
+          "href": "https://twitter.com/YumYumDeli5b",
+          "label": "Twitter"
+        }
+      ]
+    },
+    {
+      "name": "Ryder & Chaddock",
+      "img": "images/sponsors/ryderandchaddock.png",
+      "imgStyle": "margin: 0 0 10px 10px;",
+      "tagline": null,
+      "body": [
+        "Masters of engraving and screen printing onto metals and plastics, since 1951. Manufacturers of commemorative plaques, signs, labels and rubber stamps.",
+        "Tel: 0113 231 1116"
+      ],
+      "links": [
+        {
+          "variant": "btn-primary",
+          "href": "http://www.yumyumbrewerywharf.co.uk/",
+          "label": "Website"
+        }
+      ]
+    },
+    {
+      "name": "PURE Pilates UK",
+      "img": "images/sponsors/pure-pilates.png",
+      "imgStyle": "margin: 0 0 10px 10px;",
+      "tagline": null,
+      "body": [
+        "To be found right in the centre of Ilkley, the studios are wonderfully calm, light and airy with all the trademark looks of Pure Pilates, soft white leather and large mirrors, creating light and tranquillity.",
+        "They have been specially designed to create the right atmosphere in which to teach and to learn.",
+        "After travelling the world to both learn and to teach, Kirstin Ferrie, the owner and principal of Pure returned home to Yorkshire to set up her own Pilates Studio, passing on the experience and knowledge gained from working in a variety different studios and the different Pilates styles."
+      ],
+      "links": [
+        {
+          "variant": "btn-primary",
+          "href": "http://www.purepilatesilkley.com",
+          "label": "Website"
+        },
+        {
+          "variant": "btn-default",
+          "href": "https://twitter.com/PUREPilatesUK",
+          "label": "Twitter"
+        }
+      ]
+    },
+    {
+      "name": "Planet V",
+      "img": "images/sponsors/planetv.png",
+      "imgStyle": "margin: 0 0 10px 10px;",
+      "tagline": null,
+      "body": [
+        "www.planet-v.co.uk is a unique online marketplace for vegetarian and vegan products and services. Buy anything from veggie wine to vegan shoes and search for veggie restaurants/holidays/catering or your local social group.",
+        "By sourcing out the best vegetarian products around and putting them all in one place, we hope to save you time trawling through the many websites to find what you want! By listing all the products in one place, we hope not only for you to be able to buy your favourite products with ease, but discover some new ones in the process."
+      ],
+      "links": [
+        {
+          "variant": "btn-primary",
+          "href": "http://www.planet-v.co.uk/",
+          "label": "Website"
+        },
+        {
+          "variant": "btn-default",
+          "href": "https://twitter.com/Jane_PlanetV",
+          "label": "Twitter"
+        }
+      ]
+    },
+    {
+      "name": "Futurist Sound and Light",
+      "img": "images/sponsors/futurist.png",
+      "imgStyle": "margin: 0 0 10px 10px; background-color: black;",
+      "tagline": null,
+      "body": [
+        "Futurist Sound and Light have over 30 years of experience providing professional lighting and sound - hires, sales and installations - throughout the UK. Futurist pride themselves on delivering professional, high quality services - at cost effective and competitive prices. For whatever lighting, sound, AV or special effect you need - big or small, full event or just advice - Futurist are here for you."
+      ],
+      "links": [
+        {
+          "variant": "btn-primary",
+          "href": "http://www.futurist.co.uk/",
+          "label": "Website"
+        },
+        {
+          "variant": "btn-default",
+          "href": "https://twitter.com/futuristleeds",
+          "label": "Twitter"
+        }
+      ]
+    }
+  ]
+}
