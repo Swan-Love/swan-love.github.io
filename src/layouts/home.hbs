@@ -1,0 +1,99 @@
+{{!-- The home page shell, converted from _layouts/home-layout.erb.
+
+     Two holes: `carousel` (full-bleed, above the marketing container) and
+     `main`. Everything else — navbar, footer, the first-visit audio cue — is
+     shared with no other page, which is why this is a second layout rather
+     than a variant of layout.hbs. --}}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="{{description}}">
+    <meta name="author" content="{{config.site.name}}">
+
+    <title>{{title}}</title>
+    <link rel="canonical" href="{{canonical}}">
+
+    <!-- Bootstrap core CSS -->
+    <link href="/{{asset "css/bootstrap.min.css"}}" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="/{{asset "css/carousel.css"}}" rel="stylesheet">
+
+    <script src="/{{asset "js/jquery-1.10.2.min.js"}}"></script>
+  </head>
+
+  <!-- NAVBAR -->
+  <body>
+    <div class="navbar-wrapper">
+      <div class="container">
+
+        <div class="navbar navbar-inverse navbar-static-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="{{link "index"}}">{{config.site.name}}</a>
+            </div>
+            <div class="navbar-collapse collapse">
+              {{> "site/nav"}}
+              <ul class="nav navbar-nav navbar-right">
+                <li>
+                  <a href="{{url config.site.contactForm}}" class="amodal" data-title="Get in Touch">Contact &nbsp; &nbsp;</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    {{#block "carousel"}}{{/block}}
+
+    <!-- Marketing messaging and featurettes -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+    <div class="container marketing">
+
+      {{#block "main"}}{{/block}}
+
+      <hr class="featurette-divider">
+
+      <!-- FOOTER -->
+      <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        {{> "site/footer-credits"}}
+      </footer>
+
+    </div><!-- /.container -->
+
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="/{{asset "js/bootstrap.min.js"}}"></script>
+    <script src="/{{asset "js/jquery.cookie.js"}}"></script>
+    <script>
+      $(function(){
+        try {
+          var firstRun = $.cookie('first_visit');
+
+          if(firstRun == undefined){
+            $.cookie('first_visit', false, { expires: 31, path: '/' });
+
+            var v = document.getElementsByTagName("audio")[0];
+            if(v != null){
+              v.play();
+            }
+          }
+        }
+        catch(err) {
+          console.log(err);
+        }
+      });
+    </script>
+
+    {{> "site/contact-modal"}}
+  </body>
+</html>

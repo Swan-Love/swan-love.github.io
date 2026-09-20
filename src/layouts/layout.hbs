@@ -1,0 +1,89 @@
+{{!-- The inner-page shell, converted from _layouts/layout.erb.
+
+     It hands a page three holes: `intro` (the dark masthead), `leadin` (the
+     pale quote strip below it) and `main`. Under SCMS these were the views
+     named intro/leadin/main in the page's folder; here a page fills them with
+     {{#content}}. --}}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="{{description}}">
+    <meta name="author" content="{{config.site.name}}">
+
+    <title>{{title}}</title>
+    <link rel="canonical" href="{{canonical}}">
+
+    <!-- Bootstrap core CSS -->
+    <link href="/{{asset "css/bootstrap.min.css"}}" rel="stylesheet">
+    <!-- Layout extras -->
+    <link href="/{{asset "css/layout.css"}}" rel="stylesheet">
+    {{#block "head"}}{{/block}}
+
+    <script src="/{{asset "js/jquery-1.10.2.min.js"}}"></script>
+  </head>
+  <body>
+    <a class="sr-only" href="#content">Skip to main content</a>
+
+    <!-- Docs master nav -->
+    <header class="navbar navbar-inverse navbar-fixed-top bs-docs-nav" role="banner">
+      <div class="container">
+        <div class="navbar-header">
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="{{link "index"}}" class="navbar-brand">{{config.site.name}}</a>
+        </div>
+        <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+          {{> "site/nav"}}
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="{{url config.site.contactForm}}" class="amodal" data-title="Get in Touch">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Docs page layout -->
+    <div class="bs-header" id="content">
+      <div class="container">
+        {{#block "intro"}}{{/block}}
+      </div>
+    </div>
+
+    <!-- Callout for the old docs link -->
+    <div class="bs-old-docs">
+      <div class="container">
+        {{#block "leadin"}}{{/block}}
+      </div>
+    </div>
+
+    <div class="container bs-docs-container">
+      <div class="row">
+        <div class="col-md-12" role="main" style="margin-top: 25px;">
+          {{#block "main"}}{{/block}}
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bs-footer" role="contentinfo">
+      <div class="container">
+        {{> "site/footer-credits"}}
+      </div>
+    </footer>
+
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="/{{asset "js/bootstrap.min.js"}}"></script>
+    <script src="/{{asset "js/application.js"}}"></script>
+    {{#block "scripts"}}{{/block}}
+
+    {{> "site/contact-modal"}}
+  </body>
+</html>

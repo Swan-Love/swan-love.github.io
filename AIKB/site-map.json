@@ -1,0 +1,299 @@
+{
+  "site": {
+    "siteUrl": "https://swan-love.github.io",
+    "build": "./docs",
+    "folders": {
+      "aikb": "./AIKB",
+      "assets": "./src/assets",
+      "controllers": "./src/controllers",
+      "layouts": "./src/layouts",
+      "models": "./src/models",
+      "pages": "./src/pages",
+      "partials": "./src/partials",
+      "src": "./src"
+    }
+  },
+  "pages": [
+    {
+      "buildTo": "./docs/about.html",
+      "id": "about",
+      "view": "about.hbs",
+      "model": "file:about.json",
+      "controller": "file:about.js",
+      "partials": [
+        "about/jumbotron",
+        "about/people",
+        "layout",
+        "site/contact-modal",
+        "site/footer-credits",
+        "site/nav"
+      ]
+    },
+    {
+      "buildTo": "./docs/charity.html",
+      "id": "charity",
+      "view": "charity.hbs",
+      "model": "none",
+      "controller": "none",
+      "partials": [
+        "layout",
+        "site/contact-modal",
+        "site/footer-credits",
+        "site/nav"
+      ]
+    },
+    {
+      "buildTo": "./docs/corporate.html",
+      "id": "corporate",
+      "view": "corporate.hbs",
+      "model": "none",
+      "controller": "none",
+      "partials": [
+        "layout",
+        "site/contact-modal",
+        "site/footer-credits",
+        "site/nav"
+      ]
+    },
+    {
+      "buildTo": "./docs/donate.html",
+      "id": "donate",
+      "view": "donate.hbs",
+      "model": "none",
+      "controller": "none",
+      "partials": [
+        "layout",
+        "site/contact-modal",
+        "site/footer-credits",
+        "site/nav"
+      ]
+    },
+    {
+      "buildTo": "./docs/event-cash-for-kids.html",
+      "id": "event-cash-for-kids",
+      "view": "event-cash-for-kids.hbs",
+      "model": "inline",
+      "controller": "none",
+      "partials": [
+        "events/countdown",
+        "layout",
+        "site/contact-modal",
+        "site/footer-credits",
+        "site/nav"
+      ]
+    },
+    {
+      "buildTo": "./docs/event-mean-streets.html",
+      "id": "event-mean-streets",
+      "view": "event-mean-streets.hbs",
+      "model": "inline",
+      "controller": "none",
+      "partials": [
+        "events/countdown",
+        "layout",
+        "site/contact-modal",
+        "site/footer-credits",
+        "site/nav"
+      ]
+    },
+    {
+      "buildTo": "./docs/event-valentines-entertainment.html",
+      "id": "event-valentines-entertainment",
+      "view": "event-valentines-entertainment.hbs",
+      "model": "inline",
+      "controller": "none",
+      "partials": [
+        "events/countdown",
+        "layout",
+        "site/contact-modal",
+        "site/footer-credits",
+        "site/nav"
+      ]
+    },
+    {
+      "buildTo": "./docs/events-royalgeorgethornbury.html",
+      "id": "events-royalgeorgethornbury",
+      "view": "events-royalgeorgethornbury.hbs",
+      "model": "inline",
+      "controller": "none",
+      "partials": [
+        "events/countdown",
+        "layout",
+        "site/contact-modal",
+        "site/footer-credits",
+        "site/nav"
+      ]
+    },
+    {
+      "buildTo": "./docs/gallery.html",
+      "id": "gallery",
+      "view": "gallery.hbs",
+      "model": "none",
+      "controller": "none",
+      "partials": [
+        "layout",
+        "site/contact-modal",
+        "site/footer-credits",
+        "site/nav"
+      ]
+    },
+    {
+      "buildTo": "./docs/index.html",
+      "id": "index",
+      "view": "index.hbs",
+      "model": "none",
+      "controller": "none",
+      "partials": [
+        "home",
+        "home/calls-to-action",
+        "home/carousel",
+        "home/charity",
+        "home/collective",
+        "home/facebook",
+        "site/contact-modal",
+        "site/footer-credits",
+        "site/nav"
+      ]
+    },
+    {
+      "buildTo": "./docs/sponsors.html",
+      "id": "sponsors",
+      "view": "sponsors.hbs",
+      "model": "file:sponsors.json",
+      "controller": "none",
+      "partials": [
+        "layout",
+        "site/contact-modal",
+        "site/footer-credits",
+        "site/nav",
+        "sponsors/card"
+      ]
+    }
+  ],
+  "partials": {
+    "about/jumbotron": [
+      "./docs/about.html"
+    ],
+    "about/people": [
+      "./docs/about.html"
+    ],
+    "events/countdown": [
+      "./docs/event-cash-for-kids.html",
+      "./docs/event-mean-streets.html",
+      "./docs/event-valentines-entertainment.html",
+      "./docs/events-royalgeorgethornbury.html"
+    ],
+    "home": [
+      "./docs/index.html"
+    ],
+    "home/calls-to-action": [
+      "./docs/index.html"
+    ],
+    "home/carousel": [
+      "./docs/index.html"
+    ],
+    "home/charity": [
+      "./docs/index.html"
+    ],
+    "home/collective": [
+      "./docs/index.html"
+    ],
+    "home/facebook": [
+      "./docs/index.html"
+    ],
+    "layout": [
+      "./docs/about.html",
+      "./docs/charity.html",
+      "./docs/corporate.html",
+      "./docs/donate.html",
+      "./docs/event-cash-for-kids.html",
+      "./docs/event-mean-streets.html",
+      "./docs/event-valentines-entertainment.html",
+      "./docs/events-royalgeorgethornbury.html",
+      "./docs/gallery.html",
+      "./docs/sponsors.html"
+    ],
+    "site/contact-modal": [
+      "./docs/about.html",
+      "./docs/charity.html",
+      "./docs/corporate.html",
+      "./docs/donate.html",
+      "./docs/event-cash-for-kids.html",
+      "./docs/event-mean-streets.html",
+      "./docs/event-valentines-entertainment.html",
+      "./docs/events-royalgeorgethornbury.html",
+      "./docs/gallery.html",
+      "./docs/index.html",
+      "./docs/sponsors.html"
+    ],
+    "site/footer-credits": [
+      "./docs/about.html",
+      "./docs/charity.html",
+      "./docs/corporate.html",
+      "./docs/donate.html",
+      "./docs/event-cash-for-kids.html",
+      "./docs/event-mean-streets.html",
+      "./docs/event-valentines-entertainment.html",
+      "./docs/events-royalgeorgethornbury.html",
+      "./docs/gallery.html",
+      "./docs/index.html",
+      "./docs/sponsors.html"
+    ],
+    "site/nav": [
+      "./docs/about.html",
+      "./docs/charity.html",
+      "./docs/corporate.html",
+      "./docs/donate.html",
+      "./docs/event-cash-for-kids.html",
+      "./docs/event-mean-streets.html",
+      "./docs/event-valentines-entertainment.html",
+      "./docs/events-royalgeorgethornbury.html",
+      "./docs/gallery.html",
+      "./docs/index.html",
+      "./docs/sponsors.html"
+    ],
+    "sponsors/card": [
+      "./docs/sponsors.html"
+    ]
+  },
+  "models": [
+    {
+      "source": "file:about.json",
+      "pages": [
+        "./docs/about.html"
+      ]
+    },
+    {
+      "source": "file:sponsors.json",
+      "pages": [
+        "./docs/sponsors.html"
+      ]
+    },
+    {
+      "source": "inline",
+      "pages": [
+        "./docs/event-cash-for-kids.html",
+        "./docs/event-mean-streets.html",
+        "./docs/event-valentines-entertainment.html",
+        "./docs/events-royalgeorgethornbury.html"
+      ]
+    }
+  ],
+  "controllers": [
+    {
+      "source": "file:about.js",
+      "pages": [
+        "./docs/about.html"
+      ]
+    }
+  ],
+  "pipeline": [],
+  "subjects": [
+    {
+      "kind": "controllers",
+      "id": "about.js",
+      "note": "notes/controllers/about.md",
+      "hash": "1afe9b078b68cd21af14e99c54ac806ca5bf1e2e"
+    }
+  ]
+}

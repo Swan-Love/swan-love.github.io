@@ -1,0 +1,25 @@
+{{#extend "layout"}}
+
+  {{#content "intro"}}
+  {{#markdown}}
+Swan Love is a creative collective of talented artists, musicians and performers
+  {{/markdown}}
+  {{/content}}
+
+  {{#content "leadin"}}
+  "A kind gesture can reach a wound that only compassion can heal." - Steve Maraboli
+  {{/content}}
+
+  {{#content "main"}}
+  <div class="jumbotron">
+    {{> "about/jumbotron"}}
+  </div>
+
+  <h2>Steering Group</h2>
+  {{> "about/people" rows=model.steeringRows}}
+
+  <h2>Collective</h2>
+  {{> "about/people" rows=model.collectiveRows}}
+  {{/content}}
+
+{{/extend}}

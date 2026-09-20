@@ -1,0 +1,18 @@
+{
+  "name": "swan-love.github.io",
+  "version": "3.0.0",
+  "private": true,
+  "description": "Source for swanlove.co.uk, built with kiss-ssg",
+  "type": "module",
+  "main": "router.js",
+  "scripts": {
+    "build": "node router.js",
+    "dev": "node router.js --dev",
+    "check": "kiss-ssg check router.js",
+    "aikb": "kiss-ssg aikb router.js"
+  },
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "kiss-ssg": "^2.4.0"
+  }
+}

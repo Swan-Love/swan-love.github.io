@@ -1,0 +1,20 @@
+{{#extend "layout"}}
+
+  {{#content "intro"}}
+  {{#markdown}}
+Sponsors
+  {{/markdown}}
+  {{/content}}
+
+  {{#content "leadin"}}
+  Swanlove would like to thank all our sponsers
+  {{/content}}
+
+  {{#content "main"}}
+  {{#each model.sponsors}}
+  {{> "sponsors/card"}}
+  {{#unless @last}}<hr style="clear: both;">{{/unless}}
+  {{/each}}
+  {{/content}}
+
+{{/extend}}

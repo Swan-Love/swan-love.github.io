@@ -1,3 +1,15 @@
+node_modules/
+
+# Build output. GitHub Actions runs `npm run build` and deploys ./docs as the
+# Pages artifact, so it is not committed — `npm run build` recreates it.
+docs/
+
+# Preview output from `npm run dev`.
+.kiss-dev/
+# Left behind only if a build is killed mid-flight; the next run clears them.
+docs.kiss-staging-*/
+docs.kiss-old-*/
+
 *.gem
 *.sublime-project
 *.sublime-workspace
@@ -8,7 +20,6 @@
 
 # Windows image file caches
 Thumbs.db
-
 
 # Mac crap
 .DS_Store

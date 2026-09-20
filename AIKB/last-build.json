@@ -1,0 +1,490 @@
+{
+  "ok": true,
+  "mode": "check",
+  "buildDir": "./docs",
+  "pages": [
+    {
+      "view": "index.hbs",
+      "buildTo": "./docs/index.html",
+      "ok": true,
+      "hash": "ecfbfbfe12f5a179c57daf5b814bf4992557c5e4",
+      "id": "index"
+    },
+    {
+      "view": "charity.hbs",
+      "buildTo": "./docs/charity.html",
+      "ok": true,
+      "hash": "9e16a7f825008126cfe0b967d197a1d7479d69cf",
+      "id": "charity"
+    },
+    {
+      "view": "sponsors.hbs",
+      "buildTo": "./docs/sponsors.html",
+      "ok": true,
+      "hash": "25f9e620ed2a68922b9b2757165cae55df8c1eb8",
+      "id": "sponsors"
+    },
+    {
+      "view": "gallery.hbs",
+      "buildTo": "./docs/gallery.html",
+      "ok": true,
+      "hash": "fcefb19af1bc810e9a8e62e671785509e059cb69",
+      "id": "gallery"
+    },
+    {
+      "view": "donate.hbs",
+      "buildTo": "./docs/donate.html",
+      "ok": true,
+      "hash": "1e01be86ba09ce086522dd30299944d273bbeea9",
+      "id": "donate"
+    },
+    {
+      "view": "corporate.hbs",
+      "buildTo": "./docs/corporate.html",
+      "ok": true,
+      "hash": "2eaf0419a4d40b463fe145a7e9b7616608427351",
+      "id": "corporate"
+    },
+    {
+      "view": "events-royalgeorgethornbury.hbs",
+      "buildTo": "./docs/events-royalgeorgethornbury.html",
+      "ok": true,
+      "hash": "5488f984d3d1244e8e00e4008884ee372954e7c2",
+      "id": "events-royalgeorgethornbury"
+    },
+    {
+      "view": "event-cash-for-kids.hbs",
+      "buildTo": "./docs/event-cash-for-kids.html",
+      "ok": true,
+      "hash": "c307f94f02ea3af8034316f1f2d6cdb52c532fed",
+      "id": "event-cash-for-kids"
+    },
+    {
+      "view": "event-mean-streets.hbs",
+      "buildTo": "./docs/event-mean-streets.html",
+      "ok": true,
+      "hash": "1dab5d327baa9f6298c5cb7f5e848ba79f2dbfd1",
+      "id": "event-mean-streets"
+    },
+    {
+      "view": "event-valentines-entertainment.hbs",
+      "buildTo": "./docs/event-valentines-entertainment.html",
+      "ok": true,
+      "hash": "12d3299354358ae38c3c3ea3fde85259ee4d09a6",
+      "id": "event-valentines-entertainment"
+    },
+    {
+      "view": "about.hbs",
+      "buildTo": "./docs/about.html",
+      "ok": true,
+      "hash": "3619dd0773493b2854e01c0e11ff859b0a1babb8",
+      "id": "about"
+    }
+  ],
+  "failures": [],
+  "assets": [
+    {
+      "source": "css/bootstrap-theme.css",
+      "target": "css/bootstrap-theme.css"
+    },
+    {
+      "source": "css/bootstrap-theme.min.css",
+      "target": "css/bootstrap-theme.min.css"
+    },
+    {
+      "source": "css/bootstrap.css",
+      "target": "css/bootstrap.css"
+    },
+    {
+      "source": "css/bootstrap.min.css",
+      "target": "css/bootstrap.min.css"
+    },
+    {
+      "source": "css/carousel.css",
+      "target": "css/carousel.css"
+    },
+    {
+      "source": "css/jquery.flipcountdown.css",
+      "target": "css/jquery.flipcountdown.css"
+    },
+    {
+      "source": "css/layout.css",
+      "target": "css/layout.css"
+    },
+    {
+      "source": "fonts/glyphicons-halflings-regular.eot",
+      "target": "fonts/glyphicons-halflings-regular.eot"
+    },
+    {
+      "source": "fonts/glyphicons-halflings-regular.svg",
+      "target": "fonts/glyphicons-halflings-regular.svg"
+    },
+    {
+      "source": "fonts/glyphicons-halflings-regular.ttf",
+      "target": "fonts/glyphicons-halflings-regular.ttf"
+    },
+    {
+      "source": "fonts/glyphicons-halflings-regular.woff",
+      "target": "fonts/glyphicons-halflings-regular.woff"
+    },
+    {
+      "source": "images/about/alan.png",
+      "target": "images/about/alan.png"
+    },
+    {
+      "source": "images/about/alexandra-parker.jpg",
+      "target": "images/about/alexandra-parker.jpg"
+    },
+    {
+      "source": "images/about/arran-kent.jpg",
+      "target": "images/about/arran-kent.jpg"
+    },
+    {
+      "source": "images/about/baroness-guillem.jpg",
+      "target": "images/about/baroness-guillem.jpg"
+    },
+    {
+      "source": "images/about/bernadette-byrne.jpg",
+      "target": "images/about/bernadette-byrne.jpg"
+    },
+    {
+      "source": "images/about/cookie.jpg",
+      "target": "images/about/cookie.jpg"
+    },
+    {
+      "source": "images/about/danni (Erica-PC's conflicted copy 2014-07-15).jpg",
+      "target": "images/about/danni (Erica-PC's conflicted copy 2014-07-15).jpg"
+    },
+    {
+      "source": "images/about/danni-lindley.jpg",
+      "target": "images/about/danni-lindley.jpg"
+    },
+    {
+      "source": "images/about/david-frazier.jpg",
+      "target": "images/about/david-frazier.jpg"
+    },
+    {
+      "source": "images/about/dj-cat.jpg",
+      "target": "images/about/dj-cat.jpg"
+    },
+    {
+      "source": "images/about/izzy.jpg",
+      "target": "images/about/izzy.jpg"
+    },
+    {
+      "source": "images/about/jaydee.jpg",
+      "target": "images/about/jaydee.jpg"
+    },
+    {
+      "source": "images/about/jd.jpg",
+      "target": "images/about/jd.jpg"
+    },
+    {
+      "source": "images/about/jen-burlesque.jpg",
+      "target": "images/about/jen-burlesque.jpg"
+    },
+    {
+      "source": "images/about/jess-crabtree.jpg",
+      "target": "images/about/jess-crabtree.jpg"
+    },
+    {
+      "source": "images/about/john-slater.jpg",
+      "target": "images/about/john-slater.jpg"
+    },
+    {
+      "source": "images/about/lucy-hartland-mann.png",
+      "target": "images/about/lucy-hartland-mann.png"
+    },
+    {
+      "source": "images/about/maud.jpg",
+      "target": "images/about/maud.jpg"
+    },
+    {
+      "source": "images/about/maz.png",
+      "target": "images/about/maz.png"
+    },
+    {
+      "source": "images/about/melissa-reenhough.jpg",
+      "target": "images/about/melissa-reenhough.jpg"
+    },
+    {
+      "source": "images/about/missentice.jpg",
+      "target": "images/about/missentice.jpg"
+    },
+    {
+      "source": "images/about/rachael-howarth.jpg",
+      "target": "images/about/rachael-howarth.jpg"
+    },
+    {
+      "source": "images/about/ross.jpg",
+      "target": "images/about/ross.jpg"
+    },
+    {
+      "source": "images/about/ruby-paul.jpg",
+      "target": "images/about/ruby-paul.jpg"
+    },
+    {
+      "source": "images/about/ruth-mcnulty.jpg",
+      "target": "images/about/ruth-mcnulty.jpg"
+    },
+    {
+      "source": "images/about/saxophone-stew.jpg",
+      "target": "images/about/saxophone-stew.jpg"
+    },
+    {
+      "source": "images/about/scarlet-butterfly.jpg",
+      "target": "images/about/scarlet-butterfly.jpg"
+    },
+    {
+      "source": "images/about/sophie-morris.jpg",
+      "target": "images/about/sophie-morris.jpg"
+    },
+    {
+      "source": "images/about/suzy-valentine.jpg",
+      "target": "images/about/suzy-valentine.jpg"
+    },
+    {
+      "source": "images/about/tim.jpg",
+      "target": "images/about/tim.jpg"
+    },
+    {
+      "source": "images/about/zu.jpg",
+      "target": "images/about/zu.jpg"
+    },
+    {
+      "source": "images/background.png",
+      "target": "images/background.png"
+    },
+    {
+      "source": "images/charity/cashforkidsaire.jpg",
+      "target": "images/charity/cashforkidsaire.jpg"
+    },
+    {
+      "source": "images/charity/hand-in-hand-for syria.png",
+      "target": "images/charity/hand-in-hand-for syria.png"
+    },
+    {
+      "source": "images/charity/simon-on-the-streets.jpg",
+      "target": "images/charity/simon-on-the-streets.jpg"
+    },
+    {
+      "source": "images/events/valentines-heart.jpg",
+      "target": "images/events/valentines-heart.jpg"
+    },
+    {
+      "source": "images/flipcountdown/digit-lg-dark.psd",
+      "target": "images/flipcountdown/digit-lg-dark.psd"
+    },
+    {
+      "source": "images/flipcountdown/digit-lg.png",
+      "target": "images/flipcountdown/digit-lg.png"
+    },
+    {
+      "source": "images/flipcountdown/digit-lg.psd",
+      "target": "images/flipcountdown/digit-lg.psd"
+    },
+    {
+      "source": "images/flipcountdown/digit-md.png",
+      "target": "images/flipcountdown/digit-md.png"
+    },
+    {
+      "source": "images/flipcountdown/digit-sm.png",
+      "target": "images/flipcountdown/digit-sm.png"
+    },
+    {
+      "source": "images/flipcountdown/digit-xs.png",
+      "target": "images/flipcountdown/digit-xs.png"
+    },
+    {
+      "source": "images/home/dj-v1.jpg",
+      "target": "images/home/dj-v1.jpg"
+    },
+    {
+      "source": "images/home/facebook-badge.jpg",
+      "target": "images/home/facebook-badge.jpg"
+    },
+    {
+      "source": "images/home/facebook-badge.png",
+      "target": "images/home/facebook-badge.png"
+    },
+    {
+      "source": "images/home/handinhandforsyria (Erica-PC's conflicted copy 2014-07-15).jpg",
+      "target": "images/home/handinhandforsyria (Erica-PC's conflicted copy 2014-07-15).jpg"
+    },
+    {
+      "source": "images/home/la-boheme.jpg",
+      "target": "images/home/la-boheme.jpg"
+    },
+    {
+      "source": "images/home/love-charity.png",
+      "target": "images/home/love-charity.png"
+    },
+    {
+      "source": "images/home/newsletter-badge.png",
+      "target": "images/home/newsletter-badge.png"
+    },
+    {
+      "source": "images/home/rachael-howarth.jpg",
+      "target": "images/home/rachael-howarth.jpg"
+    },
+    {
+      "source": "images/home/simon-on-the-streets-v1.png",
+      "target": "images/home/simon-on-the-streets-v1.png"
+    },
+    {
+      "source": "images/home/tim.jpg",
+      "target": "images/home/tim.jpg"
+    },
+    {
+      "source": "images/home/we-got-tickets.jpg",
+      "target": "images/home/we-got-tickets.jpg"
+    },
+    {
+      "source": "images/home/woman-v1.jpg",
+      "target": "images/home/woman-v1.jpg"
+    },
+    {
+      "source": "images/sponsors-mean-streets.png",
+      "target": "images/sponsors-mean-streets.png"
+    },
+    {
+      "source": "images/sponsors/bolongaro.jpg",
+      "target": "images/sponsors/bolongaro.jpg"
+    },
+    {
+      "source": "images/sponsors/emerald.png",
+      "target": "images/sponsors/emerald.png"
+    },
+    {
+      "source": "images/sponsors/futurist.png",
+      "target": "images/sponsors/futurist.png"
+    },
+    {
+      "source": "images/sponsors/green-sqaures.png",
+      "target": "images/sponsors/green-sqaures.png"
+    },
+    {
+      "source": "images/sponsors/log-heights.png",
+      "target": "images/sponsors/log-heights.png"
+    },
+    {
+      "source": "images/sponsors/planetv.png",
+      "target": "images/sponsors/planetv.png"
+    },
+    {
+      "source": "images/sponsors/pure-pilates.png",
+      "target": "images/sponsors/pure-pilates.png"
+    },
+    {
+      "source": "images/sponsors/richersounds.png",
+      "target": "images/sponsors/richersounds.png"
+    },
+    {
+      "source": "images/sponsors/royalgeorgethornbury.png",
+      "target": "images/sponsors/royalgeorgethornbury.png"
+    },
+    {
+      "source": "images/sponsors/ryderandchaddock.png",
+      "target": "images/sponsors/ryderandchaddock.png"
+    },
+    {
+      "source": "images/sponsors/snowball.jpg",
+      "target": "images/sponsors/snowball.jpg"
+    },
+    {
+      "source": "images/sponsors/sukhothia.png",
+      "target": "images/sponsors/sukhothia.png"
+    },
+    {
+      "source": "images/sponsors/xs.png",
+      "target": "images/sponsors/xs.png"
+    },
+    {
+      "source": "images/sponsors/yumyum.png",
+      "target": "images/sponsors/yumyum.png"
+    },
+    {
+      "source": "images/swan-love-thumb.jpg",
+      "target": "images/swan-love-thumb.jpg"
+    },
+    {
+      "source": "images/swan-love-wm-v1.1.png",
+      "target": "images/swan-love-wm-v1.1.png"
+    },
+    {
+      "source": "images/swan-love-wm-v1.png",
+      "target": "images/swan-love-wm-v1.png"
+    },
+    {
+      "source": "images/swan-love-wm.jpg",
+      "target": "images/swan-love-wm.jpg"
+    },
+    {
+      "source": "images/swan-love.jpg",
+      "target": "images/swan-love.jpg"
+    },
+    {
+      "source": "js/application.js",
+      "target": "js/application.js"
+    },
+    {
+      "source": "js/bootstrap.js",
+      "target": "js/bootstrap.js"
+    },
+    {
+      "source": "js/bootstrap.min.js",
+      "target": "js/bootstrap.min.js"
+    },
+    {
+      "source": "js/jquery-1.10.2.min.js",
+      "target": "js/jquery-1.10.2.min.js"
+    },
+    {
+      "source": "js/jquery.cookie.js",
+      "target": "js/jquery.cookie.js"
+    },
+    {
+      "source": "js/jquery.flipcountdown.js",
+      "target": "js/jquery.flipcountdown.js"
+    },
+    {
+      "source": "mp3/valley-of-the-shadows.mp3",
+      "target": "mp3/valley-of-the-shadows.mp3"
+    }
+  ],
+  "sitemap": "./docs/sitemap.xml",
+  "pipeline": [],
+  "llms": null,
+  "aikb": {
+    "folder": "AIKB",
+    "written": true,
+    "notes": {
+      "missing": [],
+      "dead": [],
+      "stale": [],
+      "dangling": []
+    },
+    "subjects": [
+      {
+        "kind": "controllers",
+        "id": "about.js",
+        "note": "notes/controllers/about.md",
+        "hash": "1afe9b078b68cd21af14e99c54ac806ca5bf1e2e"
+      }
+    ]
+  },
+  "links": {
+    "checked": 167,
+    "broken": []
+  },
+  "redirects": null,
+  "feed": null,
+  "robots": {
+    "file": "./docs/robots.txt",
+    "agents": 1,
+    "disallowAll": false,
+    "sitemaps": [
+      "https://swan-love.github.io/sitemap.xml"
+    ]
+  }
+}
