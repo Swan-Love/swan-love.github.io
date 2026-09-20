@@ -14,17 +14,22 @@ feature. Treat it as a site to keep working, not one under development.
 
 ## How it is deployed
 
-GitHub Pages, serving the `./docs` folder of the default branch, at
-www.swanlove.co.uk via the CNAME file in the assets folder.
+GitHub Pages, from a workflow rather than from a branch: every push to master
+runs the build in Actions and uploads the build folder as the Pages artifact.
+Pull requests run the same build and check without publishing.
 
-The build output is committed, because that is what Pages reads. There is no
-CI: whoever changes the source runs `npm run build` and commits the result
-alongside it. A source change committed without its rebuilt output does nothing
-to the live site — that is the single most likely way to be confused here.
+The build output is **not** committed — CI produces it. This is the second
+deployment shape the site has had: the conversion first committed the output
+and pointed Pages at a folder of the branch, which meant a source change
+committed without its rebuilt output silently did nothing to the live site.
+Building in CI removes that failure mode, and with it the churn from the
+sitemap's build-time timestamps.
 
-Pages defaults its publishing folder to the repository root, so the docs folder
-had to be selected by hand. If the site ever serves the old SCMS pages again,
-or 404s everywhere, check that setting first.
+Two settings carry it, neither visible in the repository. Pages must have
+GitHub Actions selected as its source. And the custom domain must be set in the
+Pages settings, because under the Actions source a CNAME file in the artifact
+is ignored — the one the assets folder still ships is inert, kept only so a
+fall back to branch deployment would carry the domain.
 
 ## Conventions
 
@@ -44,8 +49,9 @@ They are stated for contributors in `CLAUDE.md`; the durable reasoning:
 ## Standing gotchas
 
 - **The build folder cannot contain the source folder.** kiss-ssg refuses it at
-  construction, so the output is `./docs` and cannot be the repository root
-  however Pages is configured.
+  construction, so the output is `./docs`. This constrained deployment only
+  while Pages read a folder of the branch; the workflow uploads whatever path
+  it is given, so it is now just where the build lands.
 - **`npm run dev` builds into a scratch folder, not `./docs`.** Dev output
   carries a livereload shim, expanded CSS and no analytics, and the atomic
   clean degrades to a plain clean under dev. Pointing dev at the published
@@ -68,3 +74,9 @@ They are stated for contributors in `CLAUDE.md`; the durable reasoning:
 
 - *"Publish from the repository root like SCMS did, so no Pages setting has to
   change."* Not possible: the build folder may not contain the source folder.
+  Moot in any case — a workflow deployment reads no folder of the branch, and
+  changing the Pages source is a one-off either way.
+- *"Commit the build output so the deployed site is visible in the
+  repository."* What the conversion did first. It made every rebuild a diff of
+  its own, mostly the sitemap's timestamps, and made a forgotten rebuild a
+  silent non-deployment. CI builds it instead.

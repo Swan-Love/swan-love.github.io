@@ -8,7 +8,7 @@ engine's contract is imported below — read it before changing the build.
 ## Commands
 
 ```
-npm run build    one-shot build into ./docs (committed; this is what is served)
+npm run build    one-shot build into ./docs (git-ignored; CI builds and deploys it)
 npm run dev      live-reloading preview on :3001, building into ./.kiss-dev
 npm run check    dry-run build — page diffs, asset changes, broken links
 npm run aikb     record the site's knowledge base to ./AIKB (after a passing build)
@@ -38,10 +38,18 @@ Everything under `src/` follows kiss-ssg's folder conventions.
 
 ## Deployment
 
-GitHub Pages serves this branch's `/docs` folder — a setting that must be
-selected explicitly, since Pages defaults to the repository root. `docs/` is
-build output but is committed, because that is what Pages reads. `CNAME` ships
-from `src/assets/CNAME`, which kiss-ssg copies to the root of the build.
+`.github/workflows/deploy.yml` builds the site and deploys `./docs` as the
+Pages artifact on every push to `master`. Pull requests run the same build and
+`npm run check` but never publish. Pages must have **GitHub Actions** selected
+as its source — not "Deploy from a branch".
+
+`docs/` is therefore git-ignored: CI produces it, and a source change no longer
+has to be committed alongside a rebuilt copy of the output.
+
+**The custom domain lives in Settings → Pages → Custom domain.** Under the
+Actions source a `CNAME` file in the artifact is ignored, so the one shipped
+from `src/assets/CNAME` is inert — kept only so a fall back to branch
+deployment would still carry the domain.
 
 `npm run dev` deliberately builds elsewhere: dev output carries a livereload
 shim, expanded CSS and no analytics, and `cleanBuild: 'atomic'` degrades to a
@@ -51,8 +59,8 @@ the published folder.
 ## Gotchas
 
 - The build folder cannot contain `src/`. kiss-ssg refuses it at construction
-  (`assertBuildFolderIsSafe`), which is why the output is `./docs` and not the
-  repository root.
+  (`assertBuildFolderIsSafe`), so the output is `./docs`. This no longer
+  constrains deployment — the workflow uploads whatever path it is given.
 - This site was converted from SCMS. Three URLs the old build published are
   gone on purpose and carry no redirect: `/valentines-entertainment.html`,
   `/event-cash-for-kids - Copy.html` and `/_archive.html`.

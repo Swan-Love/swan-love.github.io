@@ -1,0 +1,76 @@
+# Build the site with kiss-ssg and deploy it to GitHub Pages.
+#
+# Pages must be set to "GitHub Actions" as its source (Settings -> Pages ->
+# Build and deployment -> Source). Under that source a CNAME file in the
+# artifact is ignored, so the custom domain lives in Settings -> Pages ->
+# Custom domain and nowhere else.
+name: Deploy to Pages
+
+on:
+  push:
+    branches: ['master']
+  # Pull requests build and are checked, but never deploy.
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# One deployment at a time, and never cancel one that is part-way through
+# publishing.
+concurrency:
+  group: 'pages'
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: Set up Node
+        uses: actions/setup-node@v7
+        with:
+          # kiss-ssg requires >= 22.12.
+          node-version: '22'
+          cache: 'npm'
+
+      - name: Install
+        run: npm ci
+
+      # A dry run first, for its report: page diffs against the recorded
+      # AIKB baseline, assets that moved, and any broken internal link. It
+      # exits non-zero if a page fails, so a broken build stops here rather
+      # than being published.
+      - name: Check
+        run: npm run check -- --summary
+
+      - name: Build
+        run: npm run build
+
+      - name: Configure Pages
+        if: github.event_name != 'pull_request'
+        uses: actions/configure-pages@v6
+
+      - name: Upload artifact
+        if: github.event_name != 'pull_request'
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: './docs'
+
+  deploy:
+    # Only a push to master (or a manual run) publishes; a pull request has
+    # already done the build and check above.
+    if: github.event_name != 'pull_request'
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5
