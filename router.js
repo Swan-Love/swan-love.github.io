@@ -20,13 +20,6 @@ const site = {
   contactForm: 'https://swanlove.wufoo.com/forms/z1u277000phlf3s/',
   ticketsUrl: 'http://www.wegottickets.com/event/346185',
   newsletterUrl: 'http://eepurl.com/L6cKb',
-  gaProperty: 'UA-47032634-1',
-  // 'auto' derives the cookie domain from whatever host serves the page, so
-  // this does not have to be edited again if the site moves. (The property is
-  // a Universal Analytics one, which Google shut down in 2023 — the snippet
-  // almost certainly records nothing. Left in place rather than removed as
-  // part of a domain change.)
-  gaDomain: 'auto',
   social: [
     { name: 'Facebook', href: 'https://www.facebook.com/SwanLoveEvents' },
     { name: 'Twitter', href: 'https://twitter.com/SwanLoveEvents' },
@@ -73,7 +66,7 @@ const kiss = new Kiss({
     // every URL the old SCMS build published still resolves.
     //
     // A dev run builds somewhere else and is git-ignored: dev output carries a
-    // livereload shim, expanded CSS and no analytics, and `atomic` degrades to
+    // livereload shim and expanded CSS, and `atomic` degrades to
     // a plain clean in dev, so pointing `npm run dev` at ./docs would leave the
     // published folder holding a preview build.
     build: dev ? './.kiss-dev' : './docs',

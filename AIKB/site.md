@@ -59,7 +59,7 @@ They are stated for contributors in `CLAUDE.md`; the durable reasoning:
   while Pages read a folder of the branch; the workflow uploads whatever path
   it is given, so it is now just where the build lands.
 - **`npm run dev` builds into a scratch folder, not `./docs`.** Dev output
-  carries a livereload shim, expanded CSS and no analytics, and the atomic
+  carries a livereload shim and expanded CSS, and the atomic
   clean degrades to a plain clean under dev. Pointing dev at the published
   folder leaves a preview build there — it happened once during the conversion
   and was caught only by grepping the output for the livereload shim.
@@ -70,10 +70,6 @@ They are stated for contributors in `CLAUDE.md`; the durable reasoning:
 - **Attribute URLs from config or a model need the `url` helper.** Handlebars'
   default escaping is for text nodes and turns an equals sign into a numeric
   entity inside a query string. Renders fine, reads like a bug.
-- **Analytics is almost certainly dead.** The page carries a Universal
-  Analytics snippet, and Google shut that product down in 2023. Its cookie
-  domain is set to auto so it at least matches whatever host serves the page,
-  but nothing here has been verified as recording anything.
 - **The old SCMS output is gone, including three URLs with no redirect:** the
   stale valentines-entertainment page, an accidental "Copy" duplicate of the
   cash-for-kids page, and an _archive scratch page. Deliberate — the first was
@@ -86,6 +82,11 @@ They are stated for contributors in `CLAUDE.md`; the durable reasoning:
   change."* Not possible: the build folder may not contain the source folder.
   Moot in any case — a workflow deployment reads no folder of the branch, and
   changing the Pages source is a one-off either way.
+- *"Keep the Google Analytics snippet, it is only a few lines."* Removed. It
+  was a Universal Analytics property, and Google shut that product down in
+  2023, so it was loading a third-party script on every page to report to
+  somewhere that stopped listening. Any future measurement starts from a
+  current product, not from reviving this.
 - *"Commit the build output so the deployed site is visible in the
   repository."* What the conversion did first. It made every rebuild a diff of
   its own, mostly the sitemap's timestamps, and made a forgotten rebuild a

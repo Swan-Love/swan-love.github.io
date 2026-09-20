@@ -24,7 +24,6 @@
         "about/jumbotron",
         "about/people",
         "layout",
-        "site/analytics",
         "site/contact-modal",
         "site/footer-credits",
         "site/nav"
@@ -38,7 +37,6 @@
       "controller": "none",
       "partials": [
         "layout",
-        "site/analytics",
         "site/contact-modal",
         "site/footer-credits",
         "site/nav"
@@ -52,7 +50,6 @@
       "controller": "none",
       "partials": [
         "layout",
-        "site/analytics",
         "site/contact-modal",
         "site/footer-credits",
         "site/nav"
@@ -66,7 +63,6 @@
       "controller": "none",
       "partials": [
         "layout",
-        "site/analytics",
         "site/contact-modal",
         "site/footer-credits",
         "site/nav"
@@ -81,7 +77,6 @@
       "partials": [
         "events/countdown",
         "layout",
-        "site/analytics",
         "site/contact-modal",
         "site/footer-credits",
         "site/nav"
@@ -96,7 +91,6 @@
       "partials": [
         "events/countdown",
         "layout",
-        "site/analytics",
         "site/contact-modal",
         "site/footer-credits",
         "site/nav"
@@ -111,7 +105,6 @@
       "partials": [
         "events/countdown",
         "layout",
-        "site/analytics",
         "site/contact-modal",
         "site/footer-credits",
         "site/nav"
@@ -126,7 +119,6 @@
       "partials": [
         "events/countdown",
         "layout",
-        "site/analytics",
         "site/contact-modal",
         "site/footer-credits",
         "site/nav"
@@ -140,7 +132,6 @@
       "controller": "none",
       "partials": [
         "layout",
-        "site/analytics",
         "site/contact-modal",
         "site/footer-credits",
         "site/nav"
@@ -159,7 +150,6 @@
         "home/charity",
         "home/collective",
         "home/facebook",
-        "site/analytics",
         "site/contact-modal",
         "site/footer-credits",
         "site/nav"
@@ -173,7 +163,6 @@
       "controller": "none",
       "partials": [
         "layout",
-        "site/analytics",
         "site/contact-modal",
         "site/footer-credits",
         "site/nav",
@@ -222,19 +211,6 @@
       "./docs/event-valentines-entertainment.html",
       "./docs/events-royalgeorgethornbury.html",
       "./docs/gallery.html",
-      "./docs/sponsors.html"
-    ],
-    "site/analytics": [
-      "./docs/about.html",
-      "./docs/charity.html",
-      "./docs/corporate.html",
-      "./docs/donate.html",
-      "./docs/event-cash-for-kids.html",
-      "./docs/event-mean-streets.html",
-      "./docs/event-valentines-entertainment.html",
-      "./docs/events-royalgeorgethornbury.html",
-      "./docs/gallery.html",
-      "./docs/index.html",
       "./docs/sponsors.html"
     ],
     "site/contact-modal": [

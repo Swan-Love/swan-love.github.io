@@ -55,9 +55,9 @@ built from, so a move is that one line plus a rebuild. Keep the scheme
 a redirect.
 
 `npm run dev` deliberately builds elsewhere: dev output carries a livereload
-shim, expanded CSS and no analytics, and `cleanBuild: 'atomic'` degrades to a
-plain clean in dev, so pointing it at `./docs` would leave a preview build in
-the published folder.
+shim and expanded CSS, and `cleanBuild: 'atomic'` degrades to a plain clean in
+dev, so pointing it at `./docs` would leave a preview build in the published
+folder.
 
 ## Gotchas
 
