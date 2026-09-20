@@ -12,6 +12,17 @@ The content is largely frozen — the most recent event page counts down to Apri
 2017 — so the ordinary change here is a copy edit or a new person, not a new
 feature. Treat it as a site to keep working, not one under development.
 
+## Three builds, and which is which
+
+| | Build | Where it lives |
+| --- | --- | --- |
+| v1 | hand-written HTML, before any generator | `_oldsite/` in this repo, five files, archived and not served |
+| v2 | SCMS — ERB layouts, one folder per page, output committed to the repository root | tag `v2.0.0`, branch `v2` |
+| v3 | kiss-ssg — this build | `master`, once the conversion merged |
+
+`package.json` carries the current number, so a fourth build renames nothing
+else.
+
 ## How it is deployed
 
 GitHub Pages, from a workflow rather than from a branch: every push to master

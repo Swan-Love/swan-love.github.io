@@ -67,5 +67,8 @@ folder.
 - This site was converted from SCMS. Three URLs the old build published are
   gone on purpose and carry no redirect: `/valentines-entertainment.html`,
   `/event-cash-for-kids - Copy.html` and `/_archive.html`.
-- `_oldsite/` is a pre-SCMS archive. It is not part of the build and is no
-  longer served.
+- **The site is on its third build.** `_oldsite/` is v1, the hand-written site
+  that predates SCMS — five files, kept in the repo as an archive, not part of
+  the build and no longer served. v2 was SCMS, tagged `v2.0.0` at the last
+  commit before this conversion, with branch `v2` at the same commit. This
+  kiss-ssg build is v3, which is what `package.json` says.
