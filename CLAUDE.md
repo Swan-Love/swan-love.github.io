@@ -17,7 +17,10 @@ npm run aikb     record the site's knowledge base to ./AIKB (after a passing bui
 ## Shape
 
 `router.js` is the page table: every page, its title, description and model are
-declared there and nowhere else. `helpers/` holds the site's one custom helper.
+declared there and nowhere else. `helpers/` holds the site's one custom helper
+and sits beside `router.js` rather than under `src/` — that is kiss-ssg's
+convention, and keeping it out of the watched source folder means a dev-mode
+edit fails visibly instead of silently serving the old helper.
 Everything under `src/` follows kiss-ssg's folder conventions.
 
 ## Conventions
@@ -67,6 +70,10 @@ folder.
 - This site was converted from SCMS. Three URLs the old build published are
   gone on purpose and carry no redirect: `/valentines-entertainment.html`,
   `/event-cash-for-kids - Copy.html` and `/_archive.html`.
+- **Restart `npm run dev` after editing `router.js` or a helper.** A watch
+  rebuild replays the registrations it already cached and will not re-import a
+  module it has already loaded, so a page you add or a helper you change is not
+  picked up — and the rebuild still logs success and reloads the browser.
 - **The site is on its third build.** `_oldsite/` is v1, the hand-written site
   that predates SCMS — five files, kept in the repo as an archive, not part of
   the build and no longer served. v2 was SCMS, tagged `v2.0.0` at the last

@@ -62,6 +62,13 @@ They are stated for contributors in `CLAUDE.md`; the durable reasoning:
   is a JSON model plus one partial now, and drift is not expressible.
 - **`router.js` answers "what pages does this site have."** Nothing else should
   need reading to find out.
+- **Custom helpers live beside the build script, not under the source folder.**
+  That is the kiss-ssg convention, and it is also the placement that fails
+  honestly: the engine watches the source folder, so a helper kept there makes
+  a dev edit produce a rebuild and a live reload while still serving the old
+  helper. Kept outside, the edit visibly does nothing, which is the truth. The
+  kiss-ssg maintainers measured both halves of this from this site's report and
+  are documenting the convention because of it.
 
 ## Standing gotchas
 
@@ -69,15 +76,30 @@ They are stated for contributors in `CLAUDE.md`; the durable reasoning:
   construction, so the output is `./docs`. This constrained deployment only
   while Pages read a folder of the branch; the workflow uploads whatever path
   it is given, so it is now just where the build lands.
+- **A dev server cannot pick up an edit to the build script or to a helper.**
+  Under `npm run dev`, editing `router.js` — to add a page, say — logs a change
+  and a rebuild, fires live reload, and does not build the new page: the
+  rebuild replays the registrations it already cached. Editing a file under
+  the helpers folder behaves the same way, because a module already imported is
+  not imported again. Both were measured on 2.4.0 by the kiss-ssg maintainers,
+  who are making the rebuild say so rather than making the edit take effect.
+  Restart the dev server after touching either.
 - **`npm run dev` builds into a scratch folder, not `./docs`.** Dev output
   carries a livereload shim and expanded CSS, and the atomic
   clean degrades to a plain clean under dev. Pointing dev at the published
   folder leaves a preview build there — it happened once during the conversion
   and was caught only by grepping the output for the livereload shim.
-- **Stylesheets are the sass sources.** The SCMS repo committed both the sass
-  and its compiled CSS side by side; kiss-ssg compiles sass itself, so the
-  compiled siblings were deleted. Re-adding one gives you two sources of truth
-  racing to write the same output path.
+- **Stylesheets are the sass sources, and a compiled sibling silently wins.**
+  The SCMS repo committed both the sass and its compiled CSS side by side;
+  kiss-ssg compiles sass itself, so the compiled siblings were deleted. Do not
+  re-add one. This was first recorded here as the two "racing", which is wrong:
+  kiss-ssg compiles every sass file and then copies everything else over the
+  top, so the plain CSS always wins, every time, with no warning and a build
+  that still reports success. Measured on 2.4.0 by the kiss-ssg maintainers
+  from this site's report: a sass file and a CSS file of the same name produced
+  the CSS file's bytes, and the build report listed only one asset, so the
+  collision is invisible rather than merely unwarned. If the deleted files ever
+  come back, every sass edit stops reaching the site and nothing says so.
 - **Attribute URLs from config or a model need the `url` helper.** Handlebars'
   default escaping is for text nodes and turns an equals sign into a numeric
   entity inside a query string. Renders fine, reads like a bug.
