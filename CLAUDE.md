@@ -1,0 +1,60 @@
+# swanlove.co.uk
+
+A static site built with [kiss-ssg](https://github.com/cprobert/kiss-ssg). The
+engine's contract is imported below — read it before changing the build.
+
+@node_modules/kiss-ssg/llms.txt
+
+## Commands
+
+```
+npm run build    one-shot build into ./docs (committed; this is what is served)
+npm run dev      live-reloading preview on :3001, building into ./.kiss-dev
+npm run check    dry-run build — page diffs, asset changes, broken links
+npm run aikb     record the site's knowledge base to ./AIKB (after a passing build)
+```
+
+## Shape
+
+`router.js` is the page table: every page, its title, description and model are
+declared there and nowhere else. `helpers/` holds the site's one custom helper.
+Everything under `src/` follows kiss-ssg's folder conventions.
+
+## Conventions
+
+- **Never hardcode an internal URL.** Pages are linked with `{{link "<id>"}}`
+  and files with `{{asset "css/layout.css"}}`, so a rename fails the build
+  instead of shipping a dead link. Page ids are the view's route without the
+  extension — `about.hbs` is `about`.
+- **Content that repeats is a model, not markup.** The people grid and the
+  sponsor list are `src/models/*.json` rendered through one partial each. Adding
+  a sponsor means editing JSON, not copying a `<div>`.
+- **Facts the site states more than once live in `router.js`** under `site` and
+  reach templates as `{{config.site.*}}`.
+- **Stylesheets are the `.scss` files.** kiss-ssg compiles them; there are no
+  committed `.css` siblings to keep in sync.
+- **Attribute URLs coming from config or a model use `{{url ...}}`**, not bare
+  `{{ }}`, which would escape `=` in a query string to `&#x3D;`.
+
+## Deployment
+
+GitHub Pages serves this branch's `/docs` folder — a setting that must be
+selected explicitly, since Pages defaults to the repository root. `docs/` is
+build output but is committed, because that is what Pages reads. `CNAME` ships
+from `src/assets/CNAME`, which kiss-ssg copies to the root of the build.
+
+`npm run dev` deliberately builds elsewhere: dev output carries a livereload
+shim, expanded CSS and no analytics, and `cleanBuild: 'atomic'` degrades to a
+plain clean in dev, so pointing it at `./docs` would leave a preview build in
+the published folder.
+
+## Gotchas
+
+- The build folder cannot contain `src/`. kiss-ssg refuses it at construction
+  (`assertBuildFolderIsSafe`), which is why the output is `./docs` and not the
+  repository root.
+- This site was converted from SCMS. Three URLs the old build published are
+  gone on purpose and carry no redirect: `/valentines-entertainment.html`,
+  `/event-cash-for-kids - Copy.html` and `/_archive.html`.
+- `_oldsite/` is a pre-SCMS archive. It is not part of the build and is no
+  longer served.
