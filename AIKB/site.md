@@ -82,6 +82,11 @@ They are stated for contributors in `CLAUDE.md`; the durable reasoning:
   change."* Not possible: the build folder may not contain the source folder.
   Moot in any case — a workflow deployment reads no folder of the branch, and
   changing the Pages source is a one-off either way.
+- *"Leave the IE8 shims in, they only load for old browsers."* Removed. The
+  conditional comment they sat in is itself an IE-only feature that no browser
+  since IE10 has honoured, so the scripts could only ever have run in browsers
+  that no longer exist. The local copies of both had already been dead for
+  years — the layouts pointed at a CDN, never at them.
 - *"Keep the Google Analytics snippet, it is only a few lines."* Removed. It
   was a Universal Analytics property, and Google shut that product down in
   2023, so it was loading a third-party script on every page to report to

@@ -7,77 +7,77 @@
       "view": "index.hbs",
       "buildTo": "./docs/index.html",
       "ok": true,
-      "hash": "585fa43aa19e9b1da98bc96a1bc8aa20625623c9",
+      "hash": "ecfbfbfe12f5a179c57daf5b814bf4992557c5e4",
       "id": "index"
     },
     {
       "view": "charity.hbs",
       "buildTo": "./docs/charity.html",
       "ok": true,
-      "hash": "0cfbc612504b58b456f4e18aafb395d3cd45b2db",
+      "hash": "81e16f1b8ef36600b81557f03e38af77c4a46b02",
       "id": "charity"
     },
     {
       "view": "sponsors.hbs",
       "buildTo": "./docs/sponsors.html",
       "ok": true,
-      "hash": "bf55aa38a0715ac383db87f16f5786d262405714",
+      "hash": "e189f3b1f80f3354139ab972abf2425042c0b999",
       "id": "sponsors"
     },
     {
       "view": "gallery.hbs",
       "buildTo": "./docs/gallery.html",
       "ok": true,
-      "hash": "2dd2236d43073dc13d667c948e0d6e811c7a238d",
+      "hash": "1cfea76682c1676729c2751dfc1b94f04ecfe95e",
       "id": "gallery"
     },
     {
       "view": "donate.hbs",
       "buildTo": "./docs/donate.html",
       "ok": true,
-      "hash": "db3757be540708a12bfc8703cc184fb67798266a",
+      "hash": "b5eda8a0d3702b549e2b83b7327786ace0238204",
       "id": "donate"
     },
     {
       "view": "corporate.hbs",
       "buildTo": "./docs/corporate.html",
       "ok": true,
-      "hash": "1ab78d05a8cca8e7d41bcdf02ce809076d673f71",
+      "hash": "4db1fbeb72035c5d24cbc9e4cd1fede4ede6e55b",
       "id": "corporate"
     },
     {
       "view": "events-royalgeorgethornbury.hbs",
       "buildTo": "./docs/events-royalgeorgethornbury.html",
       "ok": true,
-      "hash": "e35b51d3cbffc67fcf654fd170b2106f03c3d76a",
+      "hash": "1043e7d1d41ed47150e4766ee7048093f287b6a2",
       "id": "events-royalgeorgethornbury"
     },
     {
       "view": "event-cash-for-kids.hbs",
       "buildTo": "./docs/event-cash-for-kids.html",
       "ok": true,
-      "hash": "2db46cce3559664f55ba8b4d77707f37f31a68ae",
+      "hash": "93c15d77cba0a0ab86dbc0e922bf081a2f53ef9c",
       "id": "event-cash-for-kids"
     },
     {
       "view": "event-mean-streets.hbs",
       "buildTo": "./docs/event-mean-streets.html",
       "ok": true,
-      "hash": "e23f1c1c552bcc9b478ab425846b6ec6dac1e5bf",
+      "hash": "59a0f531d3731cbd6538d7b89d1ea9ca6eac810b",
       "id": "event-mean-streets"
     },
     {
       "view": "event-valentines-entertainment.hbs",
       "buildTo": "./docs/event-valentines-entertainment.html",
       "ok": true,
-      "hash": "3054c601b3c92d8f28b2c2176674ccf58f966f1e",
+      "hash": "8c4b313d827fd119bbc2f7bdbd2e167779afee0b",
       "id": "event-valentines-entertainment"
     },
     {
       "view": "about.hbs",
       "buildTo": "./docs/about.html",
       "ok": true,
-      "hash": "d94848ab053edaf7c6182c2816f73c021c715038",
+      "hash": "c185ebc45d91841adf570b864ee54bb7665104cd",
       "id": "about"
     }
   ],
@@ -450,14 +450,6 @@
     {
       "source": "js/shims/holder.js",
       "target": "js/shims/holder.js"
-    },
-    {
-      "source": "js/shims/html5shiv.js",
-      "target": "js/shims/html5shiv.js"
-    },
-    {
-      "source": "js/shims/respond.min.js",
-      "target": "js/shims/respond.min.js"
     },
     {
       "source": "mp3/valley-of-the-shadows.mp3",
