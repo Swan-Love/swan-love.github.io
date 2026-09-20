@@ -82,6 +82,10 @@ They are stated for contributors in `CLAUDE.md`; the durable reasoning:
   change."* Not possible: the build folder may not contain the source folder.
   Moot in any case — a workflow deployment reads no folder of the branch, and
   changing the Pages source is a one-off either way.
+- *"holder.js is tiny, leave it."* Removed. It is Bootstrap's placeholder-image
+  library, carried over from the example template this design came from, and it
+  was loaded on all ten inner pages while nothing on the site ever asked for a
+  placeholder.
 - *"Leave the IE8 shims in, they only load for old browsers."* Removed. The
   conditional comment they sat in is itself an IE-only feature that no browser
   since IE10 has honoured, so the scripts could only ever have run in browsers

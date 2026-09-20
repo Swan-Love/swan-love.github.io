@@ -14,70 +14,70 @@
       "view": "charity.hbs",
       "buildTo": "./docs/charity.html",
       "ok": true,
-      "hash": "81e16f1b8ef36600b81557f03e38af77c4a46b02",
+      "hash": "9e16a7f825008126cfe0b967d197a1d7479d69cf",
       "id": "charity"
     },
     {
       "view": "sponsors.hbs",
       "buildTo": "./docs/sponsors.html",
       "ok": true,
-      "hash": "e189f3b1f80f3354139ab972abf2425042c0b999",
+      "hash": "25f9e620ed2a68922b9b2757165cae55df8c1eb8",
       "id": "sponsors"
     },
     {
       "view": "gallery.hbs",
       "buildTo": "./docs/gallery.html",
       "ok": true,
-      "hash": "1cfea76682c1676729c2751dfc1b94f04ecfe95e",
+      "hash": "fcefb19af1bc810e9a8e62e671785509e059cb69",
       "id": "gallery"
     },
     {
       "view": "donate.hbs",
       "buildTo": "./docs/donate.html",
       "ok": true,
-      "hash": "b5eda8a0d3702b549e2b83b7327786ace0238204",
+      "hash": "1e01be86ba09ce086522dd30299944d273bbeea9",
       "id": "donate"
     },
     {
       "view": "corporate.hbs",
       "buildTo": "./docs/corporate.html",
       "ok": true,
-      "hash": "4db1fbeb72035c5d24cbc9e4cd1fede4ede6e55b",
+      "hash": "2eaf0419a4d40b463fe145a7e9b7616608427351",
       "id": "corporate"
     },
     {
       "view": "events-royalgeorgethornbury.hbs",
       "buildTo": "./docs/events-royalgeorgethornbury.html",
       "ok": true,
-      "hash": "1043e7d1d41ed47150e4766ee7048093f287b6a2",
+      "hash": "5488f984d3d1244e8e00e4008884ee372954e7c2",
       "id": "events-royalgeorgethornbury"
     },
     {
       "view": "event-cash-for-kids.hbs",
       "buildTo": "./docs/event-cash-for-kids.html",
       "ok": true,
-      "hash": "93c15d77cba0a0ab86dbc0e922bf081a2f53ef9c",
+      "hash": "c307f94f02ea3af8034316f1f2d6cdb52c532fed",
       "id": "event-cash-for-kids"
     },
     {
       "view": "event-mean-streets.hbs",
       "buildTo": "./docs/event-mean-streets.html",
       "ok": true,
-      "hash": "59a0f531d3731cbd6538d7b89d1ea9ca6eac810b",
+      "hash": "1dab5d327baa9f6298c5cb7f5e848ba79f2dbfd1",
       "id": "event-mean-streets"
     },
     {
       "view": "event-valentines-entertainment.hbs",
       "buildTo": "./docs/event-valentines-entertainment.html",
       "ok": true,
-      "hash": "8c4b313d827fd119bbc2f7bdbd2e167779afee0b",
+      "hash": "12d3299354358ae38c3c3ea3fde85259ee4d09a6",
       "id": "event-valentines-entertainment"
     },
     {
       "view": "about.hbs",
       "buildTo": "./docs/about.html",
       "ok": true,
-      "hash": "c185ebc45d91841adf570b864ee54bb7665104cd",
+      "hash": "3619dd0773493b2854e01c0e11ff859b0a1babb8",
       "id": "about"
     }
   ],
@@ -448,10 +448,6 @@
       "target": "js/jquery.flipcountdown.js"
     },
     {
-      "source": "js/shims/holder.js",
-      "target": "js/shims/holder.js"
-    },
-    {
       "source": "mp3/valley-of-the-shadows.mp3",
       "target": "mp3/valley-of-the-shadows.mp3"
     }
@@ -478,7 +474,7 @@
     ]
   },
   "links": {
-    "checked": 177,
+    "checked": 167,
     "broken": []
   },
   "redirects": null,
