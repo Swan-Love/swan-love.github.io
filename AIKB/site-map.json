@@ -1,6 +1,6 @@
 {
   "site": {
-    "siteUrl": "http://www.swanlove.co.uk",
+    "siteUrl": "https://swan-love.github.io",
     "build": "./docs",
     "folders": {
       "aikb": "./AIKB",

@@ -7,86 +7,82 @@
       "view": "index.hbs",
       "buildTo": "./docs/index.html",
       "ok": true,
-      "hash": "9c7dce38f717dd16f73556eb2147ed965863b1f5",
+      "hash": "f9cee990bfbffaafc00e36c6a1a2ca2a009b61f3",
       "id": "index"
     },
     {
       "view": "charity.hbs",
       "buildTo": "./docs/charity.html",
       "ok": true,
-      "hash": "09051201135c19c63192dce17d029be251fb7575",
+      "hash": "2a8715a814308200a5926469c67da0f7d08e1e2f",
       "id": "charity"
     },
     {
       "view": "sponsors.hbs",
       "buildTo": "./docs/sponsors.html",
       "ok": true,
-      "hash": "18a76d602bbe591314b30414222e58d7a99de737",
+      "hash": "d6db10fe627d43ce4a11db3400d82bf5855f214a",
       "id": "sponsors"
     },
     {
       "view": "gallery.hbs",
       "buildTo": "./docs/gallery.html",
       "ok": true,
-      "hash": "c12616583d5812cd4063e9ee0f8978b2ed184601",
+      "hash": "bba7f043fd4ce57fc643d508270f1599a90c9caa",
       "id": "gallery"
     },
     {
       "view": "donate.hbs",
       "buildTo": "./docs/donate.html",
       "ok": true,
-      "hash": "dfe64ad535caab3e5c6e690adf57edbee68bc13a",
+      "hash": "b8f9a0ba31c05fbf0303c288b7738302016aede2",
       "id": "donate"
     },
     {
       "view": "corporate.hbs",
       "buildTo": "./docs/corporate.html",
       "ok": true,
-      "hash": "2e9b2cef00bdcc94c629a54ae89fa566f0e4bcbf",
+      "hash": "566e0bf8f74ad26bd29f2cd2a7f4ea0be5cb9dbe",
       "id": "corporate"
     },
     {
       "view": "events-royalgeorgethornbury.hbs",
       "buildTo": "./docs/events-royalgeorgethornbury.html",
       "ok": true,
-      "hash": "7fd1cdc3b364304c196d76879f599c68b2476424",
+      "hash": "b1ed1f04d8f392568b2f323fc1be7b6cf4f1d16d",
       "id": "events-royalgeorgethornbury"
     },
     {
       "view": "event-cash-for-kids.hbs",
       "buildTo": "./docs/event-cash-for-kids.html",
       "ok": true,
-      "hash": "6b252c09641b4df51c09fdffd287522292a40279",
+      "hash": "5fda9891752f4840f2a47eabc222e12e764afefa",
       "id": "event-cash-for-kids"
     },
     {
       "view": "event-mean-streets.hbs",
       "buildTo": "./docs/event-mean-streets.html",
       "ok": true,
-      "hash": "db54e2eacc6885bbcdebd78e4b267df6525c1dad",
+      "hash": "c8c2e9e2bb17cfaa706c6d25cabd11fe3ef849ef",
       "id": "event-mean-streets"
     },
     {
       "view": "event-valentines-entertainment.hbs",
       "buildTo": "./docs/event-valentines-entertainment.html",
       "ok": true,
-      "hash": "c7caa758e24e5237ad39fbfafb32af07c5746f46",
+      "hash": "14f5a0b68214cd06baa4844b50c8487da9c6070a",
       "id": "event-valentines-entertainment"
     },
     {
       "view": "about.hbs",
       "buildTo": "./docs/about.html",
       "ok": true,
-      "hash": "451d67e9f12a604baef6867a26e0bb76a91c91ac",
+      "hash": "e644adace28287a71093fc4f5130f131c5c98497",
       "id": "about"
     }
   ],
   "failures": [],
   "assets": [
-    {
-      "source": "CNAME",
-      "target": "CNAME"
-    },
     {
       "source": "css/bootstrap-theme.css",
       "target": "css/bootstrap-theme.css"
@@ -500,7 +496,7 @@
     "agents": 1,
     "disallowAll": false,
     "sitemaps": [
-      "http://www.swanlove.co.uk/sitemap.xml"
+      "https://swan-love.github.io/sitemap.xml"
     ]
   }
 }

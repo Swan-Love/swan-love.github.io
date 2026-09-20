@@ -46,10 +46,13 @@ as its source — not "Deploy from a branch".
 `docs/` is therefore git-ignored: CI produces it, and a source change no longer
 has to be committed alongside a rebuilt copy of the output.
 
-**The custom domain lives in Settings → Pages → Custom domain.** Under the
-Actions source a `CNAME` file in the artifact is ignored, so the one shipped
-from `src/assets/CNAME` is inert — kept only so a fall back to branch
-deployment would still carry the domain.
+**The site is served at its default Pages address, `https://swan-love.github.io`.**
+The custom domain swanlove.co.uk has expired; Settings → Pages → Custom domain
+must be empty, and there is no `CNAME` file. `siteUrl` in `router.js` is what
+every canonical URL, sitemap `<loc>` and the `robots.txt` `Sitemap:` line are
+built from, so a move is that one line plus a rebuild. Keep the scheme
+`https://` — github.io is HTTPS-only, and `http://` would point all of them at
+a redirect.
 
 `npm run dev` deliberately builds elsewhere: dev output carries a livereload
 shim, expanded CSS and no analytics, and `cleanBuild: 'atomic'` degrades to a

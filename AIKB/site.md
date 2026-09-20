@@ -2,7 +2,7 @@
 
 ## What this site is and who for
 
-An eleven-page brochure site for Swan Love, a Leeds events collective that runs
+An eleven-page brochure site for Swan Love, a Leeds events collective that ran
 charity music nights. The audience is people deciding whether to come to an
 event, plus sponsors and performers deciding whether to work with them. Most
 pages are static copy; the two that carry data are the about page (the steering
@@ -25,11 +25,17 @@ committed without its rebuilt output silently did nothing to the live site.
 Building in CI removes that failure mode, and with it the churn from the
 sitemap's build-time timestamps.
 
-Two settings carry it, neither visible in the repository. Pages must have
-GitHub Actions selected as its source. And the custom domain must be set in the
-Pages settings, because under the Actions source a CNAME file in the artifact
-is ignored — the one the assets folder still ships is inert, kept only so a
-fall back to branch deployment would carry the domain.
+One setting carries it and is not visible in the repository: Pages must have
+GitHub Actions selected as its source.
+
+The site is served at its default Pages address. It ran on the custom domain
+swanlove.co.uk until that registration expired; the domain was removed from
+the Pages settings, the CNAME file was deleted, and `siteUrl` in the build
+script was repointed. That one value is what every canonical URL, sitemap
+entry and the robots file's sitemap line are built from, so moving domains
+again is that line plus a rebuild — with the scheme kept as https, since a
+github.io address is HTTPS-only and an http one would name a redirect
+everywhere.
 
 ## Conventions
 
@@ -64,6 +70,10 @@ They are stated for contributors in `CLAUDE.md`; the durable reasoning:
 - **Attribute URLs from config or a model need the `url` helper.** Handlebars'
   default escaping is for text nodes and turns an equals sign into a numeric
   entity inside a query string. Renders fine, reads like a bug.
+- **Analytics is almost certainly dead.** The page carries a Universal
+  Analytics snippet, and Google shut that product down in 2023. Its cookie
+  domain is set to auto so it at least matches whatever host serves the page,
+  but nothing here has been verified as recording anything.
 - **The old SCMS output is gone, including three URLs with no redirect:** the
   stale valentines-entertainment page, an accidental "Copy" duplicate of the
   cash-for-kids page, and an _archive scratch page. Deliberate — the first was

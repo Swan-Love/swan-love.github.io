@@ -21,7 +21,12 @@ const site = {
   ticketsUrl: 'http://www.wegottickets.com/event/346185',
   newsletterUrl: 'http://eepurl.com/L6cKb',
   gaProperty: 'UA-47032634-1',
-  gaDomain: 'swanlove.co.uk',
+  // 'auto' derives the cookie domain from whatever host serves the page, so
+  // this does not have to be edited again if the site moves. (The property is
+  // a Universal Analytics one, which Google shut down in 2023 — the snippet
+  // almost certainly records nothing. Left in place rather than removed as
+  // part of a domain change.)
+  gaDomain: 'auto',
   social: [
     { name: 'Facebook', href: 'https://www.facebook.com/SwanLoveEvents' },
     { name: 'Twitter', href: 'https://twitter.com/SwanLoveEvents' },
@@ -58,7 +63,10 @@ const nav = [
 const kiss = new Kiss({
   site,
   nav,
-  siteUrl: 'http://www.swanlove.co.uk',
+  // The custom domain swanlove.co.uk has expired, so the site is served at its
+  // default Pages address. github.io is HTTPS-only, so an http:// siteUrl here
+  // would point every canonical URL and every sitemap <loc> at a redirect.
+  siteUrl: 'https://swan-love.github.io',
   folders: {
     // GitHub Pages serves this branch's /docs folder. Assets land beside the
     // pages — src/assets/css/layout.scss becomes docs/css/layout.css — so
