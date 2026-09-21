@@ -6,7 +6,6 @@
 //   npm run dev     the same build with a live-reloading server on :3001
 //   npm run check   dry-run build; reports page diffs and broken links
 import Kiss from 'kiss-ssg'
-import { registerHelpers } from './helpers/index.js'
 
 const dev = process.argv.includes('--dev')
 
@@ -76,10 +75,6 @@ const kiss = new Kiss({
   cleanBuild: 'atomic',
   dev,
 })
-
-// Registered after construction and before anything renders, which is where
-// kiss-ssg's own examples put it.
-registerHelpers(kiss)
 
 kiss
   .page({
