@@ -13,6 +13,6 @@
   },
   "license": "UNLICENSED",
   "devDependencies": {
-    "kiss-ssg": "file:../../kiss-ssg"
+    "kiss-ssg": "^2.5.0"
   }
 }
