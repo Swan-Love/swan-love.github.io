@@ -161,12 +161,10 @@ kiss
   .sitemap()
   .robots()
 
-if (!dev) {
-  await kiss.complete().catch((err) => {
-    console.error(err.message)
-    for (const failure of err.failures ?? []) {
-      console.error(` - ${failure.view}: ${failure.error}`)
-    }
-    process.exitCode = 1
-  })
-}
+await kiss.complete().catch((err) => {
+  console.error(err.message)
+  for (const failure of err.failures ?? []) {
+    console.error(` - ${failure.view}: ${failure.error}`)
+  }
+  process.exitCode = 1
+})
