@@ -6,13 +6,13 @@
   "type": "module",
   "main": "router.js",
   "scripts": {
-    "build": "node router.js",
-    "dev": "node router.js --dev",
+    "build": "kiss-ssg build",
+    "dev": "kiss-ssg dev router.js --dev",
     "check": "kiss-ssg check router.js",
     "aikb": "kiss-ssg aikb router.js"
   },
   "license": "UNLICENSED",
   "devDependencies": {
-    "kiss-ssg": "^2.17.0"
+    "kiss-ssg": "^2.18.1"
   }
 }
