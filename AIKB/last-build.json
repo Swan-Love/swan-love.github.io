@@ -10,7 +10,8 @@
       "hash": "ecfbfbfe12f5a179c57daf5b814bf4992557c5e4",
       "id": "index",
       "canonical": null,
-      "markdown": null
+      "markdown": null,
+      "skipped": false
     },
     {
       "view": "charity.hbs",
@@ -19,7 +20,8 @@
       "hash": "9e16a7f825008126cfe0b967d197a1d7479d69cf",
       "id": "charity",
       "canonical": null,
-      "markdown": null
+      "markdown": null,
+      "skipped": false
     },
     {
       "view": "sponsors.hbs",
@@ -28,7 +30,8 @@
       "hash": "25f9e620ed2a68922b9b2757165cae55df8c1eb8",
       "id": "sponsors",
       "canonical": null,
-      "markdown": null
+      "markdown": null,
+      "skipped": false
     },
     {
       "view": "gallery.hbs",
@@ -37,7 +40,8 @@
       "hash": "fcefb19af1bc810e9a8e62e671785509e059cb69",
       "id": "gallery",
       "canonical": null,
-      "markdown": null
+      "markdown": null,
+      "skipped": false
     },
     {
       "view": "donate.hbs",
@@ -46,7 +50,8 @@
       "hash": "1e01be86ba09ce086522dd30299944d273bbeea9",
       "id": "donate",
       "canonical": null,
-      "markdown": null
+      "markdown": null,
+      "skipped": false
     },
     {
       "view": "corporate.hbs",
@@ -55,7 +60,8 @@
       "hash": "2eaf0419a4d40b463fe145a7e9b7616608427351",
       "id": "corporate",
       "canonical": null,
-      "markdown": null
+      "markdown": null,
+      "skipped": false
     },
     {
       "view": "events-royalgeorgethornbury.hbs",
@@ -64,7 +70,8 @@
       "hash": "5488f984d3d1244e8e00e4008884ee372954e7c2",
       "id": "events-royalgeorgethornbury",
       "canonical": null,
-      "markdown": null
+      "markdown": null,
+      "skipped": false
     },
     {
       "view": "event-cash-for-kids.hbs",
@@ -73,7 +80,8 @@
       "hash": "c307f94f02ea3af8034316f1f2d6cdb52c532fed",
       "id": "event-cash-for-kids",
       "canonical": null,
-      "markdown": null
+      "markdown": null,
+      "skipped": false
     },
     {
       "view": "event-mean-streets.hbs",
@@ -82,7 +90,8 @@
       "hash": "1dab5d327baa9f6298c5cb7f5e848ba79f2dbfd1",
       "id": "event-mean-streets",
       "canonical": null,
-      "markdown": null
+      "markdown": null,
+      "skipped": false
     },
     {
       "view": "event-valentines-entertainment.hbs",
@@ -91,7 +100,8 @@
       "hash": "12d3299354358ae38c3c3ea3fde85259ee4d09a6",
       "id": "event-valentines-entertainment",
       "canonical": null,
-      "markdown": null
+      "markdown": null,
+      "skipped": false
     },
     {
       "view": "about.hbs",
@@ -100,7 +110,8 @@
       "hash": "3619dd0773493b2854e01c0e11ff859b0a1babb8",
       "id": "about",
       "canonical": null,
-      "markdown": null
+      "markdown": null,
+      "skipped": false
     }
   ],
   "failures": [],
@@ -525,682 +536,82 @@
     "checked": 11,
     "ignored": [],
     "skipped": [],
-    "findings": [
+    "checks": [
       {
         "check": "title-duplicate",
-        "page": "./docs/corporate.html",
-        "detail": "Swan Love Events"
-      },
-      {
-        "check": "title-duplicate",
-        "page": "./docs/index.html",
-        "detail": "Swan Love Events"
+        "findings": 2,
+        "pages": 2
       },
       {
         "check": "og-image-missing",
-        "page": "./docs/about.html",
-        "detail": null
-      },
-      {
-        "check": "og-image-missing",
-        "page": "./docs/charity.html",
-        "detail": null
-      },
-      {
-        "check": "og-image-missing",
-        "page": "./docs/corporate.html",
-        "detail": null
-      },
-      {
-        "check": "og-image-missing",
-        "page": "./docs/donate.html",
-        "detail": null
-      },
-      {
-        "check": "og-image-missing",
-        "page": "./docs/event-cash-for-kids.html",
-        "detail": null
-      },
-      {
-        "check": "og-image-missing",
-        "page": "./docs/event-mean-streets.html",
-        "detail": null
-      },
-      {
-        "check": "og-image-missing",
-        "page": "./docs/event-valentines-entertainment.html",
-        "detail": null
-      },
-      {
-        "check": "og-image-missing",
-        "page": "./docs/events-royalgeorgethornbury.html",
-        "detail": null
-      },
-      {
-        "check": "og-image-missing",
-        "page": "./docs/gallery.html",
-        "detail": null
-      },
-      {
-        "check": "og-image-missing",
-        "page": "./docs/index.html",
-        "detail": null
-      },
-      {
-        "check": "og-image-missing",
-        "page": "./docs/sponsors.html",
-        "detail": null
+        "findings": 11,
+        "pages": 11
       },
       {
         "check": "img-alt-missing",
-        "page": "./docs/charity.html",
-        "detail": "/images/charity/cashforkidsaire.jpg"
-      },
-      {
-        "check": "img-alt-missing",
-        "page": "./docs/charity.html",
-        "detail": "/images/charity/hand-in-hand-for syria.png"
-      },
-      {
-        "check": "img-alt-missing",
-        "page": "./docs/charity.html",
-        "detail": "/images/charity/simon-on-the-streets.jpg"
-      },
-      {
-        "check": "img-alt-missing",
-        "page": "./docs/event-valentines-entertainment.html",
-        "detail": "/images/events/valentines-heart.jpg"
-      },
-      {
-        "check": "img-alt-missing",
-        "page": "./docs/sponsors.html",
-        "detail": "/images/sponsors/bolongaro.jpg"
-      },
-      {
-        "check": "img-alt-missing",
-        "page": "./docs/sponsors.html",
-        "detail": "/images/sponsors/futurist.png"
-      },
-      {
-        "check": "img-alt-missing",
-        "page": "./docs/sponsors.html",
-        "detail": "/images/sponsors/green-sqaures.png"
-      },
-      {
-        "check": "img-alt-missing",
-        "page": "./docs/sponsors.html",
-        "detail": "/images/sponsors/planetv.png"
-      },
-      {
-        "check": "img-alt-missing",
-        "page": "./docs/sponsors.html",
-        "detail": "/images/sponsors/pure-pilates.png"
-      },
-      {
-        "check": "img-alt-missing",
-        "page": "./docs/sponsors.html",
-        "detail": "/images/sponsors/richersounds.png"
-      },
-      {
-        "check": "img-alt-missing",
-        "page": "./docs/sponsors.html",
-        "detail": "/images/sponsors/royalgeorgethornbury.png"
-      },
-      {
-        "check": "img-alt-missing",
-        "page": "./docs/sponsors.html",
-        "detail": "/images/sponsors/ryderandchaddock.png"
-      },
-      {
-        "check": "img-alt-missing",
-        "page": "./docs/sponsors.html",
-        "detail": "/images/sponsors/sukhothia.png"
-      },
-      {
-        "check": "img-alt-missing",
-        "page": "./docs/sponsors.html",
-        "detail": "/images/sponsors/yumyum.png"
+        "findings": 14,
+        "pages": 3
       },
       {
         "check": "h1-count",
-        "page": "./docs/charity.html",
-        "detail": "0"
-      },
-      {
-        "check": "h1-count",
-        "page": "./docs/donate.html",
-        "detail": "2"
-      },
-      {
-        "check": "h1-count",
-        "page": "./docs/event-cash-for-kids.html",
-        "detail": "0"
-      },
-      {
-        "check": "h1-count",
-        "page": "./docs/event-mean-streets.html",
-        "detail": "0"
-      },
-      {
-        "check": "h1-count",
-        "page": "./docs/event-valentines-entertainment.html",
-        "detail": "0"
-      },
-      {
-        "check": "h1-count",
-        "page": "./docs/events-royalgeorgethornbury.html",
-        "detail": "0"
-      },
-      {
-        "check": "h1-count",
-        "page": "./docs/index.html",
-        "detail": "0"
-      },
-      {
-        "check": "h1-count",
-        "page": "./docs/sponsors.html",
-        "detail": "0"
+        "findings": 8,
+        "pages": 8
       },
       {
         "check": "heading-skip",
-        "page": "./docs/charity.html",
-        "detail": "h2 -> h4"
-      },
-      {
-        "check": "heading-skip",
-        "page": "./docs/corporate.html",
-        "detail": "h1 -> h4"
-      },
-      {
-        "check": "heading-skip",
-        "page": "./docs/donate.html",
-        "detail": "h1 -> h4"
-      },
-      {
-        "check": "heading-skip",
-        "page": "./docs/gallery.html",
-        "detail": "h1 -> h4"
-      },
-      {
-        "check": "heading-skip",
-        "page": "./docs/index.html",
-        "detail": "h2 -> h4"
-      },
-      {
-        "check": "heading-skip",
-        "page": "./docs/sponsors.html",
-        "detail": "h2 -> h4"
+        "findings": 6,
+        "pages": 6
       },
       {
         "check": "href-hash",
-        "page": "./docs/index.html",
-        "detail": "#"
+        "findings": 1,
+        "pages": 1
       },
       {
         "check": "favicon-missing",
-        "page": null,
-        "detail": null
+        "findings": 1,
+        "pages": 0
       },
       {
         "check": "not-found-missing",
-        "page": null,
-        "detail": null
+        "findings": 1,
+        "pages": 0
       },
       {
         "check": "consent-missing",
-        "page": "./docs/index.html",
-        "detail": "https://w.soundcloud.com"
+        "findings": 1,
+        "pages": 1
       },
       {
         "check": "img-dimensions-missing",
-        "page": "./docs/about.html",
-        "detail": "/images/about/alan.png"
-      },
-      {
-        "check": "img-dimensions-missing",
-        "page": "./docs/about.html",
-        "detail": "/images/about/alexandra-parker.jpg"
-      },
-      {
-        "check": "img-dimensions-missing",
-        "page": "./docs/about.html",
-        "detail": "/images/about/cookie.jpg"
-      },
-      {
-        "check": "img-dimensions-missing",
-        "page": "./docs/about.html",
-        "detail": "/images/about/danni-lindley.jpg"
-      },
-      {
-        "check": "img-dimensions-missing",
-        "page": "./docs/about.html",
-        "detail": "/images/about/jaydee.jpg"
-      },
-      {
-        "check": "img-dimensions-missing",
-        "page": "./docs/about.html",
-        "detail": "/images/about/jd.jpg"
-      },
-      {
-        "check": "img-dimensions-missing",
-        "page": "./docs/about.html",
-        "detail": "/images/about/lucy-hartland-mann.png"
-      },
-      {
-        "check": "img-dimensions-missing",
-        "page": "./docs/about.html",
-        "detail": "/images/about/maud.jpg"
-      },
-      {
-        "check": "img-dimensions-missing",
-        "page": "./docs/about.html",
-        "detail": "/images/about/maz.png"
-      },
-      {
-        "check": "img-dimensions-missing",
-        "page": "./docs/about.html",
-        "detail": "/images/about/melissa-reenhough.jpg"
-      },
-      {
-        "check": "img-dimensions-missing",
-        "page": "./docs/about.html",
-        "detail": "/images/about/missentice.jpg"
-      },
-      {
-        "check": "img-dimensions-missing",
-        "page": "./docs/about.html",
-        "detail": "/images/about/rachael-howarth.jpg"
-      },
-      {
-        "check": "img-dimensions-missing",
-        "page": "./docs/about.html",
-        "detail": "/images/about/ruth-mcnulty.jpg"
-      },
-      {
-        "check": "img-dimensions-missing",
-        "page": "./docs/about.html",
-        "detail": "/images/about/saxophone-stew.jpg"
-      },
-      {
-        "check": "img-dimensions-missing",
-        "page": "./docs/about.html",
-        "detail": "/images/about/sophie-morris.jpg"
-      },
-      {
-        "check": "img-dimensions-missing",
-        "page": "./docs/about.html",
-        "detail": "/images/about/suzy-valentine.jpg"
-      },
-      {
-        "check": "img-dimensions-missing",
-        "page": "./docs/about.html",
-        "detail": "/images/about/tim.jpg"
-      },
-      {
-        "check": "img-dimensions-missing",
-        "page": "./docs/charity.html",
-        "detail": "/images/charity/cashforkidsaire.jpg"
-      },
-      {
-        "check": "img-dimensions-missing",
-        "page": "./docs/charity.html",
-        "detail": "/images/charity/hand-in-hand-for syria.png"
-      },
-      {
-        "check": "img-dimensions-missing",
-        "page": "./docs/charity.html",
-        "detail": "/images/charity/simon-on-the-streets.jpg"
-      },
-      {
-        "check": "img-dimensions-missing",
-        "page": "./docs/event-valentines-entertainment.html",
-        "detail": "/images/events/valentines-heart.jpg"
-      },
-      {
-        "check": "img-dimensions-missing",
-        "page": "./docs/index.html",
-        "detail": "/images/home/facebook-badge.jpg"
-      },
-      {
-        "check": "img-dimensions-missing",
-        "page": "./docs/index.html",
-        "detail": "/images/home/love-charity.png"
-      },
-      {
-        "check": "img-dimensions-missing",
-        "page": "./docs/index.html",
-        "detail": "/images/home/newsletter-badge.png"
-      },
-      {
-        "check": "img-dimensions-missing",
-        "page": "./docs/index.html",
-        "detail": "/images/home/tim.jpg"
-      },
-      {
-        "check": "img-dimensions-missing",
-        "page": "./docs/index.html",
-        "detail": "/images/home/we-got-tickets.jpg"
-      },
-      {
-        "check": "img-dimensions-missing",
-        "page": "./docs/index.html",
-        "detail": "/images/swan-love.jpg"
-      },
-      {
-        "check": "img-dimensions-missing",
-        "page": "./docs/sponsors.html",
-        "detail": "/images/sponsors/bolongaro.jpg"
-      },
-      {
-        "check": "img-dimensions-missing",
-        "page": "./docs/sponsors.html",
-        "detail": "/images/sponsors/futurist.png"
-      },
-      {
-        "check": "img-dimensions-missing",
-        "page": "./docs/sponsors.html",
-        "detail": "/images/sponsors/green-sqaures.png"
-      },
-      {
-        "check": "img-dimensions-missing",
-        "page": "./docs/sponsors.html",
-        "detail": "/images/sponsors/planetv.png"
-      },
-      {
-        "check": "img-dimensions-missing",
-        "page": "./docs/sponsors.html",
-        "detail": "/images/sponsors/pure-pilates.png"
-      },
-      {
-        "check": "img-dimensions-missing",
-        "page": "./docs/sponsors.html",
-        "detail": "/images/sponsors/richersounds.png"
-      },
-      {
-        "check": "img-dimensions-missing",
-        "page": "./docs/sponsors.html",
-        "detail": "/images/sponsors/royalgeorgethornbury.png"
-      },
-      {
-        "check": "img-dimensions-missing",
-        "page": "./docs/sponsors.html",
-        "detail": "/images/sponsors/ryderandchaddock.png"
-      },
-      {
-        "check": "img-dimensions-missing",
-        "page": "./docs/sponsors.html",
-        "detail": "/images/sponsors/sukhothia.png"
-      },
-      {
-        "check": "img-dimensions-missing",
-        "page": "./docs/sponsors.html",
-        "detail": "/images/sponsors/yumyum.png"
+        "findings": 37,
+        "pages": 5
       },
       {
         "check": "script-blocking",
-        "page": "./docs/about.html",
-        "detail": "/js/jquery-1.10.2.min.js"
-      },
-      {
-        "check": "script-blocking",
-        "page": "./docs/charity.html",
-        "detail": "/js/jquery-1.10.2.min.js"
-      },
-      {
-        "check": "script-blocking",
-        "page": "./docs/corporate.html",
-        "detail": "/js/jquery-1.10.2.min.js"
-      },
-      {
-        "check": "script-blocking",
-        "page": "./docs/donate.html",
-        "detail": "/js/jquery-1.10.2.min.js"
-      },
-      {
-        "check": "script-blocking",
-        "page": "./docs/event-cash-for-kids.html",
-        "detail": "/js/jquery-1.10.2.min.js"
-      },
-      {
-        "check": "script-blocking",
-        "page": "./docs/event-mean-streets.html",
-        "detail": "/js/jquery-1.10.2.min.js"
-      },
-      {
-        "check": "script-blocking",
-        "page": "./docs/event-valentines-entertainment.html",
-        "detail": "/js/jquery-1.10.2.min.js"
-      },
-      {
-        "check": "script-blocking",
-        "page": "./docs/events-royalgeorgethornbury.html",
-        "detail": "/js/jquery-1.10.2.min.js"
-      },
-      {
-        "check": "script-blocking",
-        "page": "./docs/gallery.html",
-        "detail": "/js/jquery-1.10.2.min.js"
-      },
-      {
-        "check": "script-blocking",
-        "page": "./docs/index.html",
-        "detail": "/js/jquery-1.10.2.min.js"
-      },
-      {
-        "check": "script-blocking",
-        "page": "./docs/sponsors.html",
-        "detail": "/js/jquery-1.10.2.min.js"
+        "findings": 11,
+        "pages": 11
       },
       {
         "check": "image-oversized",
-        "page": "./docs/index.html",
-        "detail": "images/swan-love.jpg (504 KB)"
+        "findings": 1,
+        "pages": 1
       },
       {
         "check": "img-not-responsive",
-        "page": "./docs/about.html",
-        "detail": "/images/about/alan.png"
-      },
-      {
-        "check": "img-not-responsive",
-        "page": "./docs/about.html",
-        "detail": "/images/about/alexandra-parker.jpg"
-      },
-      {
-        "check": "img-not-responsive",
-        "page": "./docs/about.html",
-        "detail": "/images/about/cookie.jpg"
-      },
-      {
-        "check": "img-not-responsive",
-        "page": "./docs/about.html",
-        "detail": "/images/about/danni-lindley.jpg"
-      },
-      {
-        "check": "img-not-responsive",
-        "page": "./docs/about.html",
-        "detail": "/images/about/jaydee.jpg"
-      },
-      {
-        "check": "img-not-responsive",
-        "page": "./docs/about.html",
-        "detail": "/images/about/jd.jpg"
-      },
-      {
-        "check": "img-not-responsive",
-        "page": "./docs/about.html",
-        "detail": "/images/about/lucy-hartland-mann.png"
-      },
-      {
-        "check": "img-not-responsive",
-        "page": "./docs/about.html",
-        "detail": "/images/about/maud.jpg"
-      },
-      {
-        "check": "img-not-responsive",
-        "page": "./docs/about.html",
-        "detail": "/images/about/maz.png"
-      },
-      {
-        "check": "img-not-responsive",
-        "page": "./docs/about.html",
-        "detail": "/images/about/melissa-reenhough.jpg"
-      },
-      {
-        "check": "img-not-responsive",
-        "page": "./docs/about.html",
-        "detail": "/images/about/missentice.jpg"
-      },
-      {
-        "check": "img-not-responsive",
-        "page": "./docs/about.html",
-        "detail": "/images/about/rachael-howarth.jpg"
-      },
-      {
-        "check": "img-not-responsive",
-        "page": "./docs/about.html",
-        "detail": "/images/about/ruth-mcnulty.jpg"
-      },
-      {
-        "check": "img-not-responsive",
-        "page": "./docs/about.html",
-        "detail": "/images/about/saxophone-stew.jpg"
-      },
-      {
-        "check": "img-not-responsive",
-        "page": "./docs/about.html",
-        "detail": "/images/about/sophie-morris.jpg"
-      },
-      {
-        "check": "img-not-responsive",
-        "page": "./docs/about.html",
-        "detail": "/images/about/suzy-valentine.jpg"
-      },
-      {
-        "check": "img-not-responsive",
-        "page": "./docs/about.html",
-        "detail": "/images/about/tim.jpg"
-      },
-      {
-        "check": "img-not-responsive",
-        "page": "./docs/charity.html",
-        "detail": "/images/charity/cashforkidsaire.jpg"
-      },
-      {
-        "check": "img-not-responsive",
-        "page": "./docs/charity.html",
-        "detail": "/images/charity/hand-in-hand-for syria.png"
-      },
-      {
-        "check": "img-not-responsive",
-        "page": "./docs/charity.html",
-        "detail": "/images/charity/simon-on-the-streets.jpg"
-      },
-      {
-        "check": "img-not-responsive",
-        "page": "./docs/event-valentines-entertainment.html",
-        "detail": "/images/events/valentines-heart.jpg"
-      },
-      {
-        "check": "img-not-responsive",
-        "page": "./docs/index.html",
-        "detail": "/images/home/facebook-badge.jpg"
-      },
-      {
-        "check": "img-not-responsive",
-        "page": "./docs/index.html",
-        "detail": "/images/home/love-charity.png"
-      },
-      {
-        "check": "img-not-responsive",
-        "page": "./docs/index.html",
-        "detail": "/images/home/newsletter-badge.png"
-      },
-      {
-        "check": "img-not-responsive",
-        "page": "./docs/index.html",
-        "detail": "/images/home/tim.jpg"
-      },
-      {
-        "check": "img-not-responsive",
-        "page": "./docs/index.html",
-        "detail": "/images/home/we-got-tickets.jpg"
-      },
-      {
-        "check": "img-not-responsive",
-        "page": "./docs/index.html",
-        "detail": "/images/swan-love.jpg"
-      },
-      {
-        "check": "img-not-responsive",
-        "page": "./docs/sponsors.html",
-        "detail": "/images/sponsors/bolongaro.jpg"
-      },
-      {
-        "check": "img-not-responsive",
-        "page": "./docs/sponsors.html",
-        "detail": "/images/sponsors/futurist.png"
-      },
-      {
-        "check": "img-not-responsive",
-        "page": "./docs/sponsors.html",
-        "detail": "/images/sponsors/green-sqaures.png"
-      },
-      {
-        "check": "img-not-responsive",
-        "page": "./docs/sponsors.html",
-        "detail": "/images/sponsors/planetv.png"
-      },
-      {
-        "check": "img-not-responsive",
-        "page": "./docs/sponsors.html",
-        "detail": "/images/sponsors/pure-pilates.png"
-      },
-      {
-        "check": "img-not-responsive",
-        "page": "./docs/sponsors.html",
-        "detail": "/images/sponsors/richersounds.png"
-      },
-      {
-        "check": "img-not-responsive",
-        "page": "./docs/sponsors.html",
-        "detail": "/images/sponsors/royalgeorgethornbury.png"
-      },
-      {
-        "check": "img-not-responsive",
-        "page": "./docs/sponsors.html",
-        "detail": "/images/sponsors/ryderandchaddock.png"
-      },
-      {
-        "check": "img-not-responsive",
-        "page": "./docs/sponsors.html",
-        "detail": "/images/sponsors/sukhothia.png"
-      },
-      {
-        "check": "img-not-responsive",
-        "page": "./docs/sponsors.html",
-        "detail": "/images/sponsors/yumyum.png"
+        "findings": 37,
+        "pages": 5
       }
     ]
   },
   "packages": null,
   "thirdParty": {
     "siteUrl": "https://swan-love.github.io",
-    "pages": [
-      {
-        "page": "./docs/index.html",
-        "origins": [
-          {
-            "origin": "https://w.soundcloud.com",
-            "kinds": [
-              "iframe"
-            ]
-          }
-        ]
-      }
-    ],
     "origins": [
-      "https://w.soundcloud.com"
+      {
+        "origin": "https://w.soundcloud.com",
+        "pages": 1
+      }
     ]
   },
   "consent": null,
